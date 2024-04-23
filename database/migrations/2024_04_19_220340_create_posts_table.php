@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('title');
             $table->integer('product_id');
             $table->text('body');
-            $table->integer('user_id');
+            $table->integer('user_id'); 
             $table->string('state');
             $table->timestamps('');
         });

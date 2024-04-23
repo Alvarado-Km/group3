@@ -17,7 +17,7 @@ return new class extends Migration
             $table->text('deciption');
             $table->double('price');
             $table->integer('stock_quantity');
-            $table->integer('category_id');
+            $table->integer('category_id'); 
             $table->timestamps();
         });
     }
