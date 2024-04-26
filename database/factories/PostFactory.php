@@ -17,7 +17,11 @@ class PostFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'title' => $this->faker()->text(),
+            'body' => $this->faker()->paragraph(),
+            'state' => $this->faker()->timezone(),
         ];
     }
 }
+
+
