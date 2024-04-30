@@ -19,7 +19,11 @@ class PostFactory extends Factory
         return [
             'title' => $this->faker()->text(),
             'body' => $this->faker()->paragraph(),
-            'state' => $this->faker()->timezone(),
+            'state' => $this->faker()->randomElement([
+                'San Salvador',
+                'Cabañas',
+                'Ahuachapan'
+            ]),
         ];
     }
 }
