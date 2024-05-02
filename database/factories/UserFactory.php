@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Role;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
@@ -11,6 +12,13 @@ use Illuminate\Support\Str;
  */
 class UserFactory extends Factory
 {
+    public function roles()
+    {
+        return once(function () {
+            return Role::pluck('id');
+        });
+    }
+
     /**
      * The current password being used by the factory.
      */
@@ -28,11 +36,36 @@ class UserFactory extends Factory
             'email' => fake()->unique()->safeEmail(),
             'password' => static::$password ??= Hash::make('password'),
             'age' => fake()->numberBetween(15, 80),
+            'role_id' => $this->roles()->random(),
             'state' => fake()->randomElement([
-
+                'Ahuachapán',
+                'Cabañas',
+                'Chalatenango',
+                'Cuscatlán',
+                'La Libertad',
+                'Morazán',
+                'La Paz',
+                'Santa Ana',
+                'San Miguel',
+                'San Salvador',
+                'San Vicente',
+                'Sonsonate',
+                'La Unión',
+                'Usulután',
             ]),
             'type_craft' => fake()->randomElement([
-
+                'Joyería',
+                'Ropa',
+                'Velas',
+                'Muebles',
+                'Alfarería',
+                'Cerámica',
+                'Textiles',
+                'Madera',
+                'Instrumentos',
+                'Arte con metal',
+                'Vidrio',
+                'Dulces típicos',
             ]),
         ];
     }

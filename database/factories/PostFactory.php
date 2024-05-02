@@ -17,12 +17,23 @@ class PostFactory extends Factory
     public function definition(): array
     {
         return [
-            'title' => $this->faker()->text(),
-            'body' => $this->faker()->paragraph(),
-            'state' => $this->faker()->randomElement([
-                'San Salvador',
+            'title' => $this->faker->text(),
+            'body' => $this->faker->paragraph(),
+            'state' => $this->faker->randomElement([
+                'Ahuachapán',
                 'Cabañas',
-                'Ahuachapan'
+                'Chalatenango',
+                'Cuscatlán',
+                'La Libertad',
+                'Morazán',
+                'La Paz',
+                'Santa Ana',
+                'San Miguel',
+                'San Salvador',
+                'San Vicente',
+                'Sonsonate',
+                'La Unión',
+                'Usulután',
             ]),
         ];
     }
