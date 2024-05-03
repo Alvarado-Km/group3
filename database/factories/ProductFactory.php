@@ -46,7 +46,6 @@ class ProductFactory extends Factory
             'stock_quantity' => $this->faker->numberBetween(1, 50),
             'category_id' => $this->categories()->random(),
             'user_id' => $this->users()->random(),
-            'post_id' => $this->posts()->random(),
         ];
     }
 }
