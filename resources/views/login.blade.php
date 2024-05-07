@@ -1,20 +1,24 @@
 <x-layout>
+    <div class="bg-cover bg-center" style="background-image: url({{ asset('/img/2.png') }}">
 
- <form action="/login" method="POST">
-  
-   
-        @csrf
+        <div class="w-screen h-screen grid md:grid-cols-2 place-items-center">
 
-        <div class=" font-serif grid justify-items-center py-6"></div>
-        <x-input type="text" titulo="email" nombre="email" />
-        <x-input type="password" titulo="password" nombre="password" />
-        <x-button />
+            <div class="col-start-1 pb-4 grid place-items-center">
+
+                <div class="pb-20 text-8xl">
+                    <h1> Iniciar Sesión </h1>
+                </div>
+
+                <div class="pb-4">
+                    <x-input titulo="Email" type="email" nombre="email" />
+                </div>
+
+                <div class="pb-4">
+                    <x-input titulo="Contraseña" type="password" nombre="contraseña" />
+                </div>
+
+                <x-button />
+            </div>
         </div>
-
-    </form>
-
-
-
-
+    </div>
 </x-layout>
-<!-- bg-['url('{{ asset('img/1.png') }} '] -->
