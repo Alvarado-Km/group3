@@ -1,3 +1,5 @@
+
+
 <x-layout>
     <div class="bg-cover bg-center" style="background-image: url({{ asset('/img/2.png') }}">
 
