@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 export default {
     content: [
       "./resources/**/*.blade.php",
@@ -7,9 +10,9 @@ export default {
     ],
     theme: {
       extend: {
-        backgroundImage: {
-            'bg-login': "url('/img/2.png')"
-
+        backgroundImage: {},
+        fontFamily: {
+            'title': ['Ribeye', ...defaultTheme.fontFamily.sans]
         }
       },
     },
