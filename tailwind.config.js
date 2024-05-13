@@ -12,7 +12,8 @@ export default {
       extend: {
         backgroundImage: {},
         fontFamily: {
-            'title': ['Ribeye', ...defaultTheme.fontFamily.sans]
+            'title': ['Ribeye', ...defaultTheme.fontFamily.sans],
+            'common': ['Slabo27px', ...defaultTheme.fontFamily.serif]
         }
       },
     },
