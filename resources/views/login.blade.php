@@ -9,9 +9,8 @@
                     <h1 class="font-title"> Iniciar Sesión </h1>
                 </div>
 
-                <form
-                    class="font-common container w- grid place-items-center grid place-items-center pb-10 shadow-xl rounded-xl w-2/3"
-                    style="background-image: url({{ asset('/img/5.gif') }}">
+                <form method="POST" action=""
+                    class="font-common container w- grid place-items-center grid place-items-center pb-10 shadow-xl rounded-xl w-2/3 bg-[#FFE4C4]">
                     @csrf
                     <div class=" font-common grid place-items-center pb-4">
                         <x-input titulo="Email" type="email" name="email" />

@@ -12,8 +12,7 @@
                 </div>
 
                 <form
-                    class="font-common md:container grid place-items-center grid place-items-center pb-10 shadow-xl rounded-xl"
-                    style="background-image: url({{ asset('/img/5.gif') }}">
+                    class="font-common md:container grid place-items-center grid place-items-center pb-10 shadow-xl rounded-xl bg-[#FFE4C4]">
                     @csrf
                     <x-input titulo="Nombre" type="text" nombre="name" />
                     <x-input titulo="Email" type="email" nombre="email" />
