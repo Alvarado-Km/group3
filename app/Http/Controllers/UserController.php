@@ -8,7 +8,6 @@ use App\Models\User;
 
 class UserController extends Controller
 {
-
     public function login(Request $request)
     {
         $credentials = $request->validate([
@@ -17,12 +16,12 @@ class UserController extends Controller
         ]);
 
         if (Auth::attempt($credentials)) {
-            return redirect('/homepage');
+            return redirect('homepage');
         }
 
         return back()->withErrors(['email' => 'credenciales incorrectas', 'password' => 'credenciales incorrectas']);
     }
-    
+
     public function create(Request $request)
     {
         $verifyData = $request->validate(
