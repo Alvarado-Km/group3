@@ -16,7 +16,7 @@ class UserController extends Controller
         ]);
 
         if (Auth::attempt($credentials)) {
-            return redirect('homepage');
+            return redirect('/homepage');
         }
 
         return back()->withErrors(['email' => 'credenciales incorrectas', 'password' => 'credenciales incorrectas']);
@@ -35,6 +35,6 @@ class UserController extends Controller
         if (User::create($verifyData)) {
             redirect('/homepage');
         }
-        return back()->withErrors([]);
+        return back()->withErrors(['email' => 'Ingrese direccion valida', 'password' => 'Este campo es requerido', 'name' => 'Ingrese nombre valido', 'birthday' => 'Ingrese fecha valida']);
     }
 }
