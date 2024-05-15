@@ -22,7 +22,7 @@ class UserController extends Controller
         return back()->withErrors(['email' => 'credenciales incorrectas', 'password' => 'credenciales incorrectas']);
     }
 
-    public function create(Request $request)
+    public function signup(Request $request)
     {
         $verifyData = $request->validate(
             [

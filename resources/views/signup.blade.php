@@ -11,14 +11,14 @@
                     <p class="text-xl font-common pb-4"> Ingrese sus datos por favor. </p>
                 </div>
 
-                <form
+                <form method="POST" action="/signup"
                     class="font-common md:container grid place-items-center grid place-items-center pb-10 shadow-xl rounded-xl bg-[#FFE4C4]">
                     @csrf
                     <x-input titulo="Nombre" type="text" nombre="name" />
                     <x-input titulo="Email" type="email" nombre="email" />
                     <x-input titulo="Contraseña" type="password" nombre="password" />
                     <x-input titulo="Fecha de nacimiento" type="date" nombre="fecha de nacimiento" />
-                    <x-button type="submit" />
+                    <x-button type="submit"> Registrarse </x-button>
                     <p class= "grid place-self-end mr-20"> ¿Posee cuenta? </p>
                     <a class="mr-16 animate-pulse grid place-self-end hover:text-blue-600 underline decoration-solid"
                         href="/login"> Ir a iniciar sesion </a>
