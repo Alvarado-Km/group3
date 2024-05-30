@@ -17,7 +17,7 @@
                     <x-input titulo="Nombre" type="text" name="name" />
                     <x-input titulo="Email" type="email" name="email" />
                     <x-input titulo="Contraseña" type="password" name="password" />
-                    <x-input titulo="Fecha de nacimiento" type="date" name="fecha de nacimiento" />
+                    <x-input titulo="Birthday" type="date" name="date"  />
                     <x-button type="submit"> Registrarse </x-button>
                     <p class= "grid place-self-end mr-20"> ¿Posee cuenta? </p>
                     <a class="mr-16 animate-pulse grid place-self-end hover:text-blue-600 underline decoration-solid"

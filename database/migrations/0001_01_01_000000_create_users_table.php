@@ -17,10 +17,9 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique()->safeEmail();
             $table->string('password');
-            $table->integer('age');
-            $table->string('state');
-            $table->string('type_craft');
-            $table->foreignIdFor(Role::class);
+            $table->date('birthday')->nullable();
+            $table->string('state')->nullable();
+            $table->boolean('isArtisan')->default(false);
             $table->rememberToken();
             $table->timestamps();
         });

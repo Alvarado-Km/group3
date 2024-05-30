@@ -29,9 +29,10 @@ class UserController extends Controller
                 'email' => 'required|email|unique:users,email',
                 'password' => 'required|min:6|max:30',
                 'name' => 'required|min:3',
-                'birthday' => 'required|date'
+                'birthday' => 'date'
             ]
         );
+
         if (User::create($verifyData)) {
             redirect('/homepage');
         }
