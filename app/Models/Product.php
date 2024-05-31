@@ -11,11 +11,6 @@ class Product extends Model {
     use HasFactory;
 
     public function category(): BelongsTo{
-
         return $this->belongsTo(Category::class);
-    }
-
-    public function posts() {
-        return $this->hasOne(Post::class);
     }
 }

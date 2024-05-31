@@ -13,6 +13,11 @@ class CategorySeeder extends Seeder
      */
     public function run(): void
     {
-        Category::factory(50)->create();
+        $categories = [
+            "FDSHKSD",
+            "dwujdsf",
+        ];
+
+        Category::factory(10)->create();
     }
 }

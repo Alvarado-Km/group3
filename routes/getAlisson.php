@@ -5,8 +5,7 @@ use App\Models\Product;
 
 Route::get('products', function () {
     return view('products.index', [
-        'products' => Product::all(),
-        'SALUDO' => 'holaaaaa'
+        'productos' => Product::with('category')->get(),
     ]);
 });
 

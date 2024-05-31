@@ -19,8 +19,7 @@ return new class extends Migration
             $table->string('password');
             $table->date('birthday')->nullable();
             $table->string('state')->nullable();
-            $table->boolean('isArtisan')->default(false);
-            $table->rememberToken();
+            $table->boolean('is_artisan')->default(false);
             $table->timestamps();
         });
 

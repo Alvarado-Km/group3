@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Product;
+use App\Models\User;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -13,11 +15,10 @@ return new class extends Migration
     {
         Schema::create('reviews', function (Blueprint $table) {
             $table->id();
-            $table->integer('post_id');
-            $table->integer('user_id');
+            $table->foreignIdFor(Product::class)->constrained();
+            $table->foreignIdFor(User::class)->constrained();
+            $table->string('comment');
             $table->integer('rating');
-            $table->string('comment'); 
-            $table->date('post_date');
             $table->timestamps();
         });
     }
