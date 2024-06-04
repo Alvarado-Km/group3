@@ -29,13 +29,22 @@ class UserController extends Controller
                 'email' => 'required|email|unique:users,email',
                 'password' => 'required|min:6|max:30',
                 'name' => 'required|min:3',
-                'birthday' => 'date'
+                'birthday' => 'required|date',
+                'state' => 'nullable',
+                'is_artisan' => 'required|boolean'
             ]
         );
 
-        if (User::create($verifyData)) {
+        $user = User::create($verifyData);
+
+        if ($user) {
+            Auth::login($user);
             redirect('/homepage');
         }
-        return back()->withErrors(['email' => 'Ingrese direccion valida', 'password' => 'Este campo es requerido', 'name' => 'Ingrese nombre valido', 'birthday' => 'Ingrese fecha valida']);
+
+        return back()->withErrors(['email' => 'Ingrese dirección valida',
+            'password' => 'Este campo es requerido',
+            'name' => 'Ingrese nombre válido',
+            'birthday' => 'Ingrese fecha valida']);
     }
 }
