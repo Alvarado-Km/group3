@@ -19,13 +19,11 @@
                     <x-input titulo="Distritos" type="text" name="state"  />
 
                     <div class="flex space-x-2">
-                        <input type="radio" id="cliente" name="is_artisan" value="0">
-                        <label for="cliente">Comprar artesanías</label><br>
-                    </div>
+                        <input type="radio" id="cliente" name="is_artisan" value="0" checked>
+                        <label for="cliente">Comprar artesanías</label>
 
-                    <div class="flex space-x-2">
                         <input type="radio" id="artesano" name="is_artisan" value="1">
-                        <label for="artesano">Vender artesanías</label><br>
+                        <label for="artesano">Vender artesanías</label>
                     </div>
 
                     <x-button type="submit"> Registrarse </x-button>

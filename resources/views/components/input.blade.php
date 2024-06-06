@@ -1,6 +1,6 @@
 @props(['titulo'])
 
-<div class="inline-block align-top my-4">
+<div class="inline-block align-top my-3">
     <label class="block">{{ $titulo }}</label>
     <input {{ $attributes }} class="disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
     invalid:border-pink-500 invalid:text-pink-600

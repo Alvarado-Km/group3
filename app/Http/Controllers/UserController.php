@@ -36,15 +36,15 @@ class UserController extends Controller
         );
 
         $user = User::create($verifyData);
-
         if ($user) {
             Auth::login($user);
-            redirect('/homepage');
+            return redirect('/homepage');
         }
 
         return back()->withErrors(['email' => 'Ingrese dirección valida',
             'password' => 'Este campo es requerido',
             'name' => 'Ingrese nombre válido',
             'birthday' => 'Ingrese fecha valida']);
+
     }
 }
