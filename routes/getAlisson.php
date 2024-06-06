@@ -12,3 +12,10 @@ Route::get('products', function () {
 Route::get('/products/create', function () {
     return view('products.create');
 });
+
+Route::get('/products/index', function () {
+    return view('products.index');
+});
+
+
+
