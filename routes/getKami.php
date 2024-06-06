@@ -22,3 +22,7 @@ Route::get('/prueba', function () {
 Route::get('/homepage', function () {
     return view('prueba');
 });
+
+Route::get('/products/index', function (){
+    return view('products.index');
+});
