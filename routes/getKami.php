@@ -26,3 +26,7 @@ Route::get('/homepage', function () {
 Route::get('/products/index', function (){
     return view('products.index');
 });
+
+Route::get('/products/product', function(){
+    return view('products.product');
+});
