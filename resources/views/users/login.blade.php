@@ -13,7 +13,7 @@
 
                     <x-input titulo="Email" type="email" name="email" />
                     <x-input titulo="Contraseña" type="password" name="password" />
-                    <x-butt on type="submit">Continuar</x-button>
+                    <x-button type="submit">Continuar</x-button>
 
                     <p class= " pt-4 ">¿Nuevo usuario? </p>
                     <a href="/signup" class=" hover:text-slate-600 animate-pulse  text-blue-600 underline decoration-solid"> Crear
