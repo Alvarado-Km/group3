@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="bg-cover bg-center" style="background-image: url({{ asset('/img/2.png') }}">
+    <div class=" bg-cover bg-center" style="background-image: url({{ asset('/img/2.png') }}">
         <div class="w-screen h-screen grid md:grid-cols-2 place-items-center">
             <div class="col-start-1 pb-4 grid place-items-center ">
 
@@ -16,7 +16,7 @@
                     <x-butt on type="submit">Continuar</x-button>
 
                     <p class= " pt-4 ">¿Nuevo usuario? </p>
-                    <a href="/signup" class=" animate-pulse  hover:text-blue-600 underline decoration-solid"> Crear
+                    <a href="/signup" class=" hover:text-slate-600 animate-pulse  text-blue-600 underline decoration-solid"> Crear
                         cuenta </a>
 
                 </form>

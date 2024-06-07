@@ -33,7 +33,7 @@
                         <x-button type="submit"> Registrarse </x-button>
                         <div class="pl-4">
                             <p> ¿Posee cuenta? </p>
-                            <a class="animate-pulse grid place-self-end hover:text-blue-600 underline decoration-solid"
+                            <a class="animate-pulse grid place-self-end text-blue-600 hover:text-slate-600 underline decoration-solid"
                                 href="/login"> Ir a iniciar sesion </a>
                         </div>
                     </form>
