@@ -20,7 +20,7 @@ Route::get('/prueba', function () {
 });
 
 Route::get('/homepage', function () {
-    return view('prueba');
+    return view('homepage');
 });
 
 Route::get('/products/index', function (){
