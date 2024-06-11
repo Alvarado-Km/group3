@@ -17,9 +17,7 @@ Route::get('/products/index', function () {
     return view('products.index');
 });
 
-Route::get('/products/categories', function () {
-    return view('products.categories');
-});
+
 
 
 
