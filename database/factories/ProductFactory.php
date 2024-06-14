@@ -18,6 +18,7 @@ class ProductFactory extends Factory
         return once(function () {
             return Category::pluck('id');
         });
+        
     }
     public function users()
     {

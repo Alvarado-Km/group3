@@ -14,10 +14,20 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         $categories = [
-            "FDSHKSD",
-            "dwujdsf",
+            'Joyería',
+            'Ropa',
+            'Velas',
+            'Muebles',
+            'Alfarería',
+            'Cerámica',
+            'Textiles',
+            'Madera',
+            'Instrumentos',
+            'Arte con metal',
+            'Vidrio',
+            'Dulces típicos',
         ];
 
-        Category::factory(10)->create();
+        Category::factory(count($categories))->sequence( fn ($sqn) => ['name' => $categories[$sqn->index]])->create();
     }
 }
