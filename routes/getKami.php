@@ -23,10 +23,10 @@ Route::get('/homepage', function () {
     return view('homepage');
 });
 
-Route::get('/products/index', function (){
-    return view('products.index');
-});
-
 Route::get('/products/product', function(){
     return view('products.product');
+});
+
+Route::get('/prueba', function (){
+    return view('prueba');
 });
