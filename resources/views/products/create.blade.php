@@ -1,5 +1,4 @@
 <x-layout>
-    <div class="bg-cover bg-center">
         <form method="POST" action="/create">
             @csrf
             <h1 class="font-title grid justify-center mt-8 text-4xl"> Registre su producto </h1>
@@ -13,7 +12,5 @@
                 <x-input2 titulo="Historia" type="history" name="history"> Historia </x-input2>
                 <x-button class="mb-4" type="submit"> Publicar </x-button>
             </div>
-    </div>
-
     </form>
 </x-layout>
