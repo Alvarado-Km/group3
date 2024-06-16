@@ -14,4 +14,3 @@ Route::get('/products/index', function () {
 
 
 
-
