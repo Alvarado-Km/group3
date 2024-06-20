@@ -11,6 +11,9 @@ Route::get('/products/index', function () {
     return view('products.index');
 });
 
+Route::get('/products/ProfileArtisan', function () {
+    return view('products.ProfileArtisan');
+});
 
 
 
