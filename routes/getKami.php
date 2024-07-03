@@ -34,3 +34,7 @@ Route::get('/prueba', function (){
 Route::get('/AboutUs', function () {
     return view('AboutUs');
 });
+
+Route::get('/PruebaKami', function () {
+    return view('PruebaKami');
+});
