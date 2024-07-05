@@ -7,14 +7,14 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function create(Request $request, $)
+    public function create(Request $request)
     {
         $verifyData = $request->validate(
             [
                 'name' => 'required|min:3|max:20',
-                'disponibilidad' => ''
+                'disponibilidad' => '',
             ]
-        )
+            );
 
     }
 

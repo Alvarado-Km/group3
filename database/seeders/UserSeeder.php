@@ -109,15 +109,15 @@ class UserSeeder extends Seeder
                 'email' => 'camila.s@gmail.com',
                 'state' => 'Morazán',
                 'is_artisan' => '1'
-            ]
+            ],
         ];
 
-        User::factory(count($users))->sequence(fn ($sqn) => $users[$sqn->index])->create();
+        User::factory(count($users))->sequence( fn ($sqn) => $users[$sqn->index])->create();
 
         //User::factory()->create([
           //  'email' => 'vendedor@example.com',
             //'password' => 'password',
-          //  'role_id' => 1
+          //
         //]);
 
     }

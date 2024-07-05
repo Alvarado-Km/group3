@@ -13,13 +13,6 @@ use Illuminate\Support\Str;
  */
 class UserFactory extends Factory
 {
-    public function categories()
-    {
-        return once(function () {
-            return Category::pluck('id');
-        });
-    }
-
     /**
      * The current password being used by the factory.
      */
@@ -37,7 +30,6 @@ class UserFactory extends Factory
             'email' => fake()->unique()->safeEmail(),
             'password' => static::$password ??= Hash::make('password'),
             'birthday' => fake()->date(),
-            //'categories_id' => $this->categories()->random(),
             'state' => fake()->randomElement([
                 'Ahuachapán',
                 'Cabañas',
