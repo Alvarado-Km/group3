@@ -30,3 +30,11 @@ Route::get('/products/product', function(){
 Route::get('/prueba', function (){
     return view('prueba');
 });
+
+Route::get('/AboutUs', function () {
+    return view('AboutUs');
+});
+
+Route::get('/PruebaKami', function () {
+    return view('PruebaKami');
+});
