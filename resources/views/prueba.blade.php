@@ -12,6 +12,8 @@
     <div class="mt-5 flex justify-around">
         <button class="Border font-title  border-gray-400 bg-gray-400 rounded-full py-4 px-20 ">Favorito</button>
         <button class="Border font-title  border-gray-400 bg-gray-400 rounded-full py-3 px-20 " >Mis compras</button>
-        <button class="Border font-title  border-orange-400 bg-orange-400 rounded-full py-3 px-20 " >Ordenes</button>
+        <button class="Border font-title  border-orange bg-orange-400 rounded-full py-3 px-20 " >Ordenes</button>
         </div>
+<h1 class="Font-title text-2xl flex justify-center mt-10">Detalles de envio</h1>
+
 </x-layout>

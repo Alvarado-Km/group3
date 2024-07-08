@@ -19,7 +19,10 @@ export default {
             yellow: '#fdac41',
             paleGreen: '#b8a944',
             grass: '#7c6e2d',
-            mildew: '#4c4926'
+            mildew: '#4c4926',
+           
+
+
         },
         borderWidth:{
             '20': '20px',

@@ -1,4 +1,9 @@
 <x-layout>
+
+    <nav class="flex justify-center mt-4">
+        <h1 class="Font-title text-4xl ">Artesía</h1>
+    </nav>
+
     <div class="flex justify-center mt-5">
         <img class="    w-64 h-64 rounded-full" src="/img/5.jpg" alt="Rounded avatar">
 
@@ -10,7 +15,7 @@
     </div>
 
     <div class="mt-5 flex justify-around">
-        <button class="Border font-title border-orange-400 bg-orange-400 rounded-full py-4 px-20 ">Favorito</button>
+        <button class="Border font-title border-orange-400 bg-orange rounded-full py-4 px-20 ">Favorito</button>
         <button class="Border font-title border-gray-400 bg-gray-400 rounded-full py-3 px-20 " >Mis compras</button>
         <button class="Border font-title border-gray-400 bg-gray-400 rounded-full py-3 px-20 " >Ordenes</button>
         </div>
