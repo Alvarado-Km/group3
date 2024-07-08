@@ -13,7 +13,7 @@ export default {
       extend: {
         backgroundImage: {},
         colors:{
-            red: '#b32718',
+            red1: '#b32718',
             orange: '#f28425',
             salmon: '#ee4b2a',
             yellow: '#fdac41',
@@ -29,6 +29,9 @@ export default {
         fontFamily: {
             'title': ['Ribeye', ...defaultTheme.fontFamily.sans],
             'common': ['Slabo27px', ...defaultTheme.fontFamily.serif]
+        },
+        height: {
+            '128': '32rem',
         }
       },
     },
