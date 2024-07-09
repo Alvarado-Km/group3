@@ -32,7 +32,20 @@
             </form>
     </div>
 
+    <div class="grid grid-cols-2 gap-2">
+<Div>
     <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"></x-card>
     <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"></x-card>
     <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"></x-card>
+    <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"></x-card>
+</Div>
+<div>
+    <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"></x-card>
+    <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"></x-card>
+    <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"></x-card>
+    <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"></x-card>
+</div>
+
+
+    </div>
 </x-layout>
