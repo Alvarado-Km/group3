@@ -1,8 +1,5 @@
 <x-layout>
-    <Nav>
-        <svg class="fill-black size-10 ml-5 mt-5" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
-        <h1 class="Font-title text-4xl flex justify-center ">Artesía</h1>
-    </Nav>
+   <x-allnav></x-allnav>
     <div class="flex justify-center mt-5">
         <img class="    w-64 h-64 rounded-full" src="/img/5.jpg" alt="Rounded avatar">
 

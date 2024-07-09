@@ -1,4 +1,5 @@
 <x-layout>
+    <x-allnav></x-allnav>
         <form method="POST" action="/create">
             @csrf
             <h1 class="font-title grid justify-center mt-8 text-4xl"> Registre su producto </h1>

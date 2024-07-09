@@ -1,8 +1,6 @@
 <x-layout>
 
-    <nav class="flex justify-center mt-4">
-        <h1 class="Font-title text-4xl ">Artesía</h1>
-    </nav>
+    <x-allnav></x-allnav>
 
     <div class="flex justify-center mt-5">
         <img class="    w-64 h-64 rounded-full" src="/img/5.jpg" alt="Rounded avatar">
