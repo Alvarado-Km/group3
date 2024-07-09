@@ -16,7 +16,7 @@ export default {
             red1: '#b32718',
             orange: '#f28425',
             salmon: '#ee4b2a',
-            yellow: '#fdac41',
+            yellow1: '#fdac41',
             paleGreen: '#b8a944',
             grass: '#7c6e2d',
             mildew: '#4c4926',

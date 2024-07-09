@@ -15,7 +15,7 @@ Route::get('/products/ProfileArtisan', function () {
     return view('products.ProfileArtisan');
 });
 
-Route::get('/products/Profile', function () {
+Route::get('/products/profile', function () {
     return view('products.Profile');
 });
 

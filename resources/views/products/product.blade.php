@@ -2,6 +2,8 @@
 
     <div class="grid grid-cols-2 gap-2 mb-5">
 <div>
+
+
     <swiper-container class="h-[80vh] mt-7" pagination="true" pagination-clickable="true" navigation="true"
     slides-per-view="3" space-between="30" centered-slides="true" loop="true" autoplay="true">
         <swiper-slide class="flex items-center justify-center">
