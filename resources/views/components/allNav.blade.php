@@ -3,7 +3,7 @@
         <h1 class="text-6xl font-title grid place-items-center">Artesía</h1>
     </div>
     <!-- Perfil -->
-    <a href="/">
+    <a href="/products/Profile  ">
         <svg class="absolute top-0 right-6 h-16 w-10 " xmlns="http://www.w3.org/2000/svg" height="24px"
             viewBox="0 -960 960 960" width="24px" fill="#5f6368">
             <path
