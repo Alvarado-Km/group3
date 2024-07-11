@@ -24,16 +24,25 @@
 
 <!-- categories -->
     <div class="columns-4 mt-36 ml-16 mb-16">
-        <img class="rounded-full col-start-1 h-56" src="img/ropa.jpeg">
+        <a href="/products/ropa">
+        <img  class="rounded-full col-start-1 h-56" src="img/ropa.jpeg">
+        </a>
         <h2 class="font-common grid justify-items-center mr-32  text-xl "> ROPA </h2>
+
         </img>
+        <a href="/products/ropa">
         <img class="rounded-full col-start-2 h-56" src="img/Joyeria.jpg">
+        <a href="/products/ropa">
         <h2 class="font-common grid justify-items-center mr-32  text-xl"> JOYERIA </h2>
         </img>
+        <a href="/products/ropa">
         <img class="rounded-full col-start-3 h-56" src="img/Velas.jpg">
+        <a href="/products/ropa">
         <h2 class="font-common grid justify-items-center mr-32  text-xl">VELAS</h2>
         </img>
+        <a href="/products/ropa">
         <img class="rounded-full column-end h-56" src="img/muebles.jpg">
+        <a href="/products/ropa">
         <h2 class="font-common grid justify-items-center mr-32 text-xl">MUEBLES</h2>
         </img>
 

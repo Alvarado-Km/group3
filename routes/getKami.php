@@ -27,9 +27,6 @@ Route::get('/products/product', function(){
     return view('products.product');
 });
 
-Route::get('/prueba', function (){
-    return view('prueba');
-});
 
 Route::get('/AboutUs', function () {
     return view('AboutUs');
@@ -37,4 +34,12 @@ Route::get('/AboutUs', function () {
 
 Route::get('/PruebaKami', function () {
     return view('PruebaKami');
+});
+
+Route::get('/products/Joyeria', function(){
+    return view('products.Joyeria');
+});
+
+Route::get('/products/ropa', function(){
+    return view('products.ropa');
 });
