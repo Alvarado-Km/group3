@@ -13,6 +13,14 @@ class ReviewSeeder extends Seeder
      */
     public function run(): void
     {
-        Review::factory(50)->create();
+        $reviews = [
+            'user_id' => $this->users()->random(),
+            'post_id' => $this->posts()->random(),
+            'rating' => 3,
+            'comment' => BUENO,
+            'post_date' => 12/07/2035,
+        ];
+
+        Review::factory(count($reviews))->sequence( fn ($sqn) => $reviews[$sqn->index])->create();
     }
 }
