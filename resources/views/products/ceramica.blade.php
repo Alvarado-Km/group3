@@ -15,7 +15,7 @@
                     </svg>
                 </div>
                 <input type="search" id="default-search"
-                    class=" font-common block w-5/6 p-4 ps-10 text-sm text-black border border-gray-300 rounded-full   dark:bg-gray-300    "
+                    class=" font-common block  p-4 ps-10 text-sm text-black border border-gray-300 rounded-full   dark:bg-gray-300    "
                     placeholder="  Buscar" required />
 
             </div>
@@ -23,23 +23,20 @@
     </div>
 
     <div class="columns-3 mt-36 ml-16 mb-16">
-        <div class=" col-start-1 h-56">
-            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"
-                src="/img/1.png"></x-card>
-            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"
-                src="/img/1.png"></x-card>
-            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"
-                src="/img/1.png"></x-card>
-        </div>
-
-        <div class="col-start-2">
-            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"
-            src="/img/1.png"></x-card>
-        <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"
-            src="/img/1.png"></x-card>
-        <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99"
-            src="/img/1.png"></x-card>
-        </div>
+        <x-card    src="/img/c1.jpeg"> </x-card>
+        <x-card  src="/img/c2.jpeg"> </x-card>
+        <x-card    src="/img/c3.jpeg"> </x-card>
     </div>
+
+    </div class="column-end">
+
+    <div class="columns-3 mt-36 ml-16 mb-16 ">
+        <x-card  src="/img/c4.jpeg"> </x-card>
+        <x-card  src="/img/c5.jpeg"> </x-card>
+        <x-card  src="/img/c6.jpeg"> </x-card>
+
+
+    </div>
+
 
 </x-layout>

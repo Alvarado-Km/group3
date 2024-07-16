@@ -20,7 +20,7 @@ export default {
             paleGreen: '#b8a944',
             grass: '#7c6e2d',
             mildew: '#4c4926',
-           
+
 
 
         },
@@ -31,7 +31,7 @@ export default {
         },
         fontFamily: {
             'title': ['Ribeye', ...defaultTheme.fontFamily.sans],
-            'common': ['Slabo27px', ...defaultTheme.fontFamily.serif]
+            'common': ['Old Standard TT', ...defaultTheme.fontFamily.serif]
         },
         height: {
             '128': '32rem',
