@@ -14,10 +14,10 @@
             <img src="/img/Velas.jpg" class="size-full object-cover">
         </swiper-slide>
         <swiper-slide class="flex items-center justify-center">
-            <img src="/img/4.jpg" class="size-full object-cover">
+            <img src="/user/velas1.jpg" class="size-full object-cover">
         </swiper-slide>
         <swiper-slide class="flex items-center justify-center">
-            <img src="/img/5.jpg" class="size-full object-cover">
+            <img src="/user/velas2.jpg" class="size-full object-cover">
         </swiper-slide>
 
     </swiper-container>

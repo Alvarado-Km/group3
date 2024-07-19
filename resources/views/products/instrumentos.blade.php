@@ -18,11 +18,24 @@
                         class=" font-common block w-5/6 p-4 ps-10 text-sm text-black border border-gray-300 rounded-full   dark:bg-gray-300    "
                         placeholder="  Buscar" required />
 
+
                 </div>
             </form>
     </div>
 
-    <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/img/1.png"></x-card>
-    <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/img/1.png"></x-card>
-    <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/img/1.png"></x-card>
+    <div class="columns-3 mt-36 ml-16 mb-16">
+        <x-card    src="/img/i1.jpeg"> </x-card>
+        <x-card  src="/img/i2.jpeg"> </x-card>
+        <x-card    src="/img/i3.jpeg"> </x-card>
+    </div>
+
+    </div class="column-end">
+
+    <div class="columns-3 mt-36 ml-16 mb-16 ">
+        <x-card  src="/img/i4.jpeg"> </x-card>
+        <x-card  src="/img/i5.jpeg"> </x-card>
+        <x-card  src="/img/i6.jpg"> </x-card>
+
+
+    </div>
 </x-layout>

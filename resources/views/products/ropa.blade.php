@@ -22,9 +22,22 @@
             </form>
     </div>
 
-    <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/img/1.png"></x-card>
-    <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/img/1.png"></x-card>
-    <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/img/1.png"></x-card>
+    <div class="grid grid-cols-3 ">
+        <div>
+            <x-card  title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/zapatos.jpg"></x-card>
+            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/camiseta1.jpg"></x-card>
+            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/camsa.jpg"></x-card>
+        </div>
+        <div>
+            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/vestimenta.jpg"></x-card>
+            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/poncho.jpg"></x-card>
+        </div>
+        <div>
+            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/vestido.jpg"></x-card>
+            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/teñido.jpg"></x-card>
+        </div>
+    </div>
+
 </x-layout>
 
 

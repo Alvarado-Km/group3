@@ -53,7 +53,7 @@
 
     <div class="columns-4 mt-10 ml-16 mb-16 ">
         <a href="/products/ceramica">
-        <img class="rounded-full col-start-1 h-56" src="img/ceramica.jpg">
+        <img class="rounded-full col-start-1 h-56" src="img/ceramica.jpeg">
 </img> </a>
         <h2 class="font-common pl-14 mr-32 text-xl">CERAMICA</h2>
 <a href="/products/instrumentos">
