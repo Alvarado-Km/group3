@@ -36,7 +36,7 @@ Route::get('/PruebaKami', function () {
     return view('PruebaKami');
 });
 
-Route::get('/products/Joyeria', function(){
+Route::get('/products/joyeria', function(){
     return view('products.Joyeria');
 });
 
