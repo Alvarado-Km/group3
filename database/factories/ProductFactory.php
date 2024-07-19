@@ -3,7 +3,6 @@
 namespace Database\Factories;
 
 use App\Models\User;
-use App\Models\Post;
 use App\Models\Category;
 use Database\Seeders\UserSeeder;
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -18,18 +17,12 @@ class ProductFactory extends Factory
         return once(function () {
             return Category::pluck('id');
         });
-        
+
     }
     public function users()
     {
         return once(function () {
             return User::pluck('id');
-        });
-    }
-    public function posts()
-    {
-        return once(function () {
-            return Post::pluck('id');
         });
     }
 

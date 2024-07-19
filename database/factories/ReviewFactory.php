@@ -2,8 +2,8 @@
 
 namespace Database\Factories;
 
+use App\Models\Product;
 use App\Models\User;
-use App\Models\Post;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -18,13 +18,12 @@ class ReviewFactory extends Factory
             return User::pluck('id');
         });
     }
-    public function posts()
+    public function product()
     {
         return once(function () {
-            return Post::pluck('id');
+            return Product::pluck('id');
         });
     }
-
 
     /**
      * Define the model's default state.
@@ -35,10 +34,9 @@ class ReviewFactory extends Factory
     {
         return [
             'user_id' => $this->users()->random(),
-            'post_id' => $this->posts()->random(),
+            'product_id' => $this->product()->random(),
             'rating' => $this->faker->numberBetween(0,10),
             'comment' => $this->faker->sentence(),
-            'post_date' => $this->faker->date(),
         ];
     }
 }
