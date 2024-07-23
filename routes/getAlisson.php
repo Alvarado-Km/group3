@@ -16,7 +16,7 @@ Route::get('/products/ProfileArtisan', function () {
 });
 
 Route::get('/products/profile', function () {
-    return view('products.Profile');
+    return view('products.profile');
 });
 
 Route::get('/products/Favorite', function () {

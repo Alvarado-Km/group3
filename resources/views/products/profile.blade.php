@@ -1,7 +1,7 @@
 <x-layout>
    <x-allnav></x-allnav>
     <div class="flex justify-center mt-5">
-        <img class="    w-64 h-64 rounded-full" src="/img/5.jpg" alt="Rounded avatar">
+        <img class="    w-64 h-64 rounded-full" src="/img/profilepic.jpg" alt="Rounded avatar">
 
     </div>
     <h1 class="font-title text-2xl flex justify-center mt-5 ">Abigail Martinez </h1>

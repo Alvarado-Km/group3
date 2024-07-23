@@ -22,19 +22,29 @@
             </form>
     </div>
 
-    <div class="grid grid-cols-3 ">
-        <div>
-            <x-card  title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/img/velas.jpg"></x-card>
-            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/velas6.jpg"></x-card>
-            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/velas1.jpg"></x-card>
-        </div>
-        <div>
-            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/velas2.jpg"></x-card>
-            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/velase.jpg"></x-card>
-        </div>
-        <div>
-            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/velas4.jpg"></x-card>
-            <x-card title="tecomata" description="Es un tecomate decorado como gallina" price="6.99" src="/user/velas5.jpg"></x-card>
-        </div>
+    <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl">
+        <x-card    src="/user/velas5.jpg"> </x-card>
+        <p class="ml-20"> Vela cherry bloom </p>
+        <x-card  src="/user/velas6.jpg"> </x-card>
+        <p class="ml-20"> Variedad de velas </p>
+        <x-card    src="/user/velas1.jpg"> </x-card>
+        <p class="ml-20"> Velas anti-estrés</p>
+        <x-card  src="/user/velase.jpg"> </x-card>
+        <p class="ml-24"> Vela de canela </p>
+
+    </div>
+
+    </div class="column-end">
+
+    <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl ">
+        <x-card  src="/user/velas2.jpg"> </x-card>
+        <p class="ml-20"> Vela de vainilla</p>
+        <x-card  src="/user/velase.jpg"> </x-card>
+        <p class="ml-24"> Vela de canela</p>
+        <x-card  src="/user/velas4.jpg"> </x-card>
+        <p class="ml-20"> Velas olores festivos</p>
+        <x-card  src="/user/velas6.jpg"> </x-card>
+        <p class="ml-20"> Variedad de velas</p>
+
     </div>
 </x-layout>

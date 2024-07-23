@@ -1,6 +1,6 @@
 <x-layout>
 
-   <x-primaryNav> </x-primaryNav>
+   <x-primarynav> </x-primarynav>
 
     <!--display-->
     <swiper-container class="h-[80vh] mt-7" pagination="true" pagination-clickable="true" navigation="true"
@@ -30,7 +30,7 @@
         <h2 class="font-common grid justify-items-center mr-32  text-xl "> ROPA </h2>
 
         </img>
-        <a href="/products/Joyeria">
+        <a href="/products/joyeria">
         <img class="rounded-full col-start-2 h-56" src="img/Joyeria.jpg">
         </a>
         </img>

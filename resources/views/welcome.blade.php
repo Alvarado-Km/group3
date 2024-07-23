@@ -1,6 +1,6 @@
 <x-layout>
 
-    <div class="h-screen w-screen bg-cover bg-center" style="background-image: url({{ asset('/img/welcome.png') }}">
+    <div class="h-screen w-screen bg-cover bg-center h-fit" style="background-image: url({{ asset('/img/bgw.png') }}">
 
     <x-primarynav class=""> </x-primarynav>
 

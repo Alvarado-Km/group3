@@ -5,7 +5,7 @@
     <div class="grid grid-cols-5">
 
             <div class="ml-10 mt-5 col-span-2 mr-10">
-              <img class=" ml-10 cursor-pointer  w-64 h-64 rounded-full" src="/img/Velas.png" alt="Rounded avatar">
+              <img class=" ml-32 cursor-pointer  w-64 h-64 rounded-full" src="/img/profilepic.jpg" alt="Rounded avatar">
               <h1 class="font-common text-2xl border boder-gray bg-grass rounded text-center mt-3"> José Herrera</h1>
               <p class="font-common mt-3 text-justify text-1xl"> Mi nombre es José Herrero desde que era niño, la artesanía ha sido parte integral de mi vida gracias a mi abuelo, un experto tejedor de mimbre. Pasaba horas observándolo trabajar en su taller, maravillado por su habilidad y la belleza de sus creaciones. Con el tiempo, comencé a experimentar por mi cuenta, practicando el tejido de mimbre y explorando mi propia creatividad. Cada trenzado era una oportunidad para conectarme con la naturaleza que me rodeaba, y pronto descubrí que la artesanía no era solo un pasatiempo, sino una forma de expresión y conexión con mi entorno.  leer más...</p>
             </div>
