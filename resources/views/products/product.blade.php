@@ -26,8 +26,10 @@
         <div>
             <h1 class="font-title text-5xl mt-5 mb-5 ">Velas de vainilla</h1>
             <div class="mt-5 flex   ">
-                <img class="w-10 h-10 rounded-full mr-5" src="/img/{{ rand(1, 10) }}.jpg" alt="Rounded avatar">
-                <h1 class="font-common mt-2">Creado por: Jose Herrero</h1>
+                <a href="/products/ProfileArtisan" class="flex">
+                    <img  class="w-10 h-10 rounded-full mr-5" src="/img/{{ rand(1, 10) }}.jpg" alt="Rounded avatar">
+                    <h1 class="font-common mt-2">Creado por: Jose Herrero</h1>
+                </a>
 
 
                 <div class="flex items-center">
