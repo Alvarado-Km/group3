@@ -30,8 +30,9 @@ export default {
 
         },
         fontFamily: {
-            'title': ['Ribeye', ...defaultTheme.fontFamily.sans],
-            'common': ['Old Standard TT', ...defaultTheme.fontFamily.serif]
+
+            'common': ['Old Standard TT', ...defaultTheme.fontFamily.serif],
+            'title': ['Findel', ...defaultTheme.fontFamily.sans]
         },
         height: {
             '128': '32rem',
