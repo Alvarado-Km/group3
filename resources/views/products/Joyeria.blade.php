@@ -22,29 +22,13 @@
             </form>
     </div>
 
+
+
     <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl">
-        <x-card    src="/user/joyas.jpg"> </x-card>
-        <p class="ml-4 mr-4"> Anillo de acero inoxidable</p>
-        <x-card  src="/user/joyas3.jpg"> </x-card>
-        <p class="ml-16"> Conjunto aritos y monedero</p>
-        <x-card    src="/user/joyas4.jpg"> </x-card>
-        <p class="text-center ml-2 mr-2"> Conjunto aretes, collar y pulsera</p>
-        <x-card  src="/user/joyas10.jpg"> </x-card>
-        <p class="ml-20"> Set de 3 pulseras </p>
-    </div>
-
-    </div class="column-end">
-
-    <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl ">
-        <x-card  src="/user/joyas10.jpg"> </x-card>
-        <p class="ml-20"> Set de 3 pulseras</p>
-        <x-card  src="/user/joyas7.jpg"> </x-card>
-        <p class="ml-32"> Aretes</p>
-        <x-card  src="/user/joyas5.jpg"> </x-card>
-        <p class="text-center"> Variedad de pendientes</p>
-        <x-card  src="/user/joyas3.jpg"> </x-card>
-        <p class="ml-20"> Conjunto aritos y monedero</p>
-
+        @foreach ($products as $item)
+            <x-card src="/user/joyas.jpg" id="{{$item->id}}"> </x-card>
+            <p class="ml-4 mr-4">{{ $item->name }}</p>
+        @endforeach
     </div>
 </x-layout>
 

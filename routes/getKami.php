@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Models\Product;
 
 Route::get('/', function () {
     return view('welcome');
@@ -23,8 +24,10 @@ Route::get('/homepage', function () {
     return view('homepage');
 });
 
-Route::get('/products/product', function(){
-    return view('products.product');
+Route::get('/products/product/{product}', function(Product $product) {
+    return view('products.product', [
+        'producto' => $product
+    ]);
 });
 
 
@@ -37,7 +40,9 @@ Route::get('/PruebaKami', function () {
 });
 
 Route::get('/products/joyeria', function(){
-    return view('products.Joyeria');
+    return view('products.Joyeria', [
+        'products' => Product::where('category_id', 1)->get()
+    ]);
 });
 
 Route::get('/products/ropa', function(){
