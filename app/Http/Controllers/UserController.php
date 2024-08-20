@@ -16,7 +16,11 @@ class UserController extends Controller
         ]);
 
         if (Auth::attempt($credentials)) {
-            return redirect('/homepage');
+            if (Auth::user()->is_artisan) {
+                return redirect('/homepageArtisan');
+            } else {
+                return redirect('/homepage');
+            }
         }
 
         return back()->withErrors(['email' => 'credenciales incorrectas', 'password' => 'credenciales incorrectas']);
@@ -24,27 +28,27 @@ class UserController extends Controller
 
     public function signup(Request $request)
     {
-        $verifyData = $request->validate(
-            [
-                'email' => 'required|email|unique:users,email',
-                'password' => 'required|min:6|max:30',
-                'name' => 'required|min:3',
-                'birthday' => 'required|date',
-                'state' => 'nullable',
-                'is_artisan' => 'required|boolean'
-            ]
-        );
+        $verifyData = $request->validate([
+            'email' => 'required|email|unique:users,email',
+            'password' => 'required|min:6|max:30',
+            'name' => 'required|min:3',
+            'birthday' => 'required|date',
+            'state' => 'nullable',
+            'is_artisan' => 'required|boolean'
+        ]);
 
         $user = User::create($verifyData);
-        if ($user) {
-            Auth::login($user);
-            return redirect('/homepage');
+        Auth::login($user);
+        if (Auth::user()->is_artisan) {
+            return redirect('/homepageArtisan');
         }
 
-        return back()->withErrors(['email' => 'Ingrese dirección valida',
-            'password' => 'Este campo es requerido',
-            'name' => 'Ingrese nombre válido',
-            'birthday' => 'Ingrese fecha valida']);
+        return redirect('/homepage');
+    }
 
+    public function logout()
+    {
+        Auth::logout();
+        return redirect('/login');
     }
 }

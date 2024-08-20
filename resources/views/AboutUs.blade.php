@@ -30,7 +30,7 @@
 
 
         </section>
-        <img src="img/example.jpeg" class="w-screen h-min transition transition-colors mb-20">
+        <img src="img/devinitive.heic" class="w-screen h-min transition transition-colors mb-20">
 
 
         <section
@@ -66,36 +66,34 @@
 
             <h1 class="font-title text-4xl grid place-items-center   "> Nuestros valores</h1>
 
-            <div class="columns-6   mt-24 ml-16 mb-16">
+            <div class="columns-6 font-common text-4xl   mt-24 ml-16 mb-16">
                 <img class="rounded-full  col-start-1 h-40" src="img/number1.png"> </img>
                 <p class=" col-start-2  text-justify font-common mr-6">
-                    Promover la genuinidad y originalidad de la artesanía local refuerza la identidad cultural
-                    salvadoreña y diferencia los productos de imitaciones o producciones en masa. </p>
+                    Autenticidad </p>
 
                 <img class="rounded-full col-start-3 h-40" src="img/number2.png">
                 <p class="col-start-2  text-justify font-common mr-6">
-                    Reconocer y valorar las tradiciones y la artesanía local demuestra consideración hacia las
-                    comunidades y su herencia cultural, fortaleciendo el tejido social y el orgullo nacional.</p>
+                    Creatividad </p>
                 </img>
                 <img class="rounded-full col-start-5 h-40" src="img/number3.png">
                 <p class="col-start-2  text-justify font-common mr-6">
-                    Buscamos constantemente nuevas formas de promover y vender la artesanía salvadoreña, utilizando tecnologías y estrategias innovadoras para alcanzar a un público más amplio.</p>
+                    Compromiso </p>
                 </img>
 
             </div class="column-end">
 
-            <div class="columns-6   mt-36 ml-16 mb-16">
+            <div class="columns-6 font-common text-4xl  mt-36 ml-16 mb-16">
                 <img class="rounded-full col-start-1 h-40" src="img/number4.png">
-                <p class="col-start-2  text-justify font-common mr-6">
-                    Celebrar la originalidad y la creatividad de los artesanos al diseñar y elaborar sus productos enriquece la oferta de la plataforma y estimula la innovación dentro de las comunidades artesanales.</p>
+                <p class="col-start-2 text-justify  mr-6">
+                    Respeto cultural </p>
                 </img>
                 <img class="rounded-full col-start-3 h-40" src="img/number5.png">
-                <p class="col-start-2  text-justify font-common mr-6">
-                    Creemos en la colaboración con los artesanos, escuchando sus necesidades y trabajando juntos para mejorar sus condiciones y promover su trabajo.</p>
+                <p class="col-start-2  text-justify  mr-6">
+                    Colaboración </p>
                 </img>
                 <img class="rounded-full col-start-5 h-40" src="img/number6.png">
-                <p class="col-start-2  text-justify font-common mr-6">
-                    Estamos dedicados a apoyar a los artesanos y a mantener vivas las tradiciones culturales a través de nuestro proyecto.</p>
+                <p class="col-start-2  text-justify mr-6">
+                    Innovación </p>
                 </img>
 
             </div>

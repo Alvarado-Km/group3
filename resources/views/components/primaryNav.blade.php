@@ -1,6 +1,6 @@
 <nav class="break-after-all sticky top-0 z-50 bg-white  ">
     <div class="static">
-        <h1 class="  text-6xl grid place-items-center font-title  ">Artesía</h1>
+        <h1 class="text-6xl  grid place-items-center font-title">Artesía</h1>
     </div>
     <!-- Perfil  text-3xl sm:text-6xl -->
     <a href="/products/profile">

@@ -72,3 +72,16 @@ Route::get('/products/velas', function(){
 Route::get('/products/vidrios', function(){
     return view('products.vidrios');
 });
+
+Route::get('/homepageArtisan', function(){
+    return view('users.homepageArtisan');
+});
+
+
+Route::get('/ready', function(){
+    return view('ready');
+});
+
+
+
+Route::post('/logout', [UserController::class, 'logout']);
