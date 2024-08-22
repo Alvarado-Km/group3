@@ -22,31 +22,10 @@
             </form>
     </div>
 
-    <div class="columns-4 mt-36 ml-4 mb-16 font-common text-2xl">
-        <x-card src="/user/muebles.jpg"> </x-card>
-        <p class="text-center mr-2"> Conjunto: muebles de madera </p>
-        <x-card src="/user/muebles5.jpg"> </x-card>
-        <p class="text-center mr-4">Sillas de hule para jardín</p>
-        <x-card    src="/user/muebles6.jpg"> </x-card>
-        <p class="text-center">Hamaca de tela</p>
-        <x-card src="/user/muebles5.jpg"></x-card>
-        <p class="ml-10">Sillas de hule para jardín</p>
-
+    <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl">
+        @foreach ($products as $item)
+            <x-card src="/user/joyeria.jpg" id="{{$item->id}}"> </x-card>
+            <p class="ml-4 mr-4">{{ $item->name }}</p>
+        @endforeach
     </div>
-
-    </div class="column-end">
-
-    <div class="columns-4 mt-36 ml-4 mb-16 font-common text-2xl ">
-        <x-card  src="/user/muebles1.jpg"> </x-card>
-        <p class="ml-10"> Silla reclinable de mimbre </p>
-        <x-card  src="/img/muebles2.jpg"> </x-card>
-        <p class="ml-10"> Set de madera para sala </p>
-        <x-card  src="/user/muebles3.jpg"> </x-card>
-        <p class="ml-16"> Variedad de sillas de madera </p>
-        <x-card   src="/user/muebles1.jpg"> </x-card>
-        <p class="ml-10">Silla reclinable de mimbre </p>
-
-    </div>
-
-
 </x-layout>

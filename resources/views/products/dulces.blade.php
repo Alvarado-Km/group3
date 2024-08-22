@@ -24,26 +24,10 @@
 
 
     <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl">
-        <x-card    src="/img/d1.jpeg"> </x-card>
-        <p class="ml-12">Mermelada de granada</p>
-        <x-card  src="/img/d2.jpeg"> </x-card>
-        <p class="ml-28"> Empiñadas</p>
-        <x-card  src="/img/d5.jpeg"> </x-card>
-        <p class="ml-12"> Dulce de leche con nuez</p>
-        <x-card    src="/img/d3.jpeg"> </x-card>
-        <p class="ml-24"> Dulce de leche</p>
+        @foreach ($products as $item)
+            <x-card src="/user/joyeria.jpg" id="{{$item->id}}"> </x-card>
+            <p class="ml-4 mr-4">{{ $item->name }}</p>
+        @endforeach
     </div>
 
-    </div class="column-end">
-
-    <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl ">
-        <x-card  src="/img/d5.jpeg"> </x-card>
-        <p class="ml-10">Dulce de leche con nuez</p>
-        <x-card  src="/img/d4.jpeg"> </x-card>
-        <p class="ml-10">Manzanas caramelizadas</p>
-        <x-card  src="/img/d6.jpg"> </x-card>
-        <p class="ml-20"> Conserva de coco</p>
-        <x-card    src="/img/d1.jpeg"> </x-card>
-        <p class="ml-12"> Mermelada de manzana</p>
-
-    </div></x-layout>
+    </x-layout>

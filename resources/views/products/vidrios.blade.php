@@ -22,31 +22,11 @@
             </form>
     </div>
 <div>
+
     <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl">
-        <x-card    src="/img/v1.jpeg"> </x-card>
-        <p class="text-center"> Frasco con diseño de fresas</p>
-        <x-card  src="/img/v2.jpeg"> </x-card>
-        <p class="text-center"> Colgante en forma de luna</p>
-        <x-card  src="/img/v6.jpeg"> </x-card>
-        <p class="text-center"> Marco con el principito</p>
-        <x-card    src="/img/v3.jpeg"> </x-card>
-        <p class="text-center"> Posador de velas con diseño floral</p>
+        @foreach ($products as $item)
+            <x-card src="/user/joyeria.jpg" id="{{$item->id}}"> </x-card>
+            <p class="ml-4 mr-4">{{ $item->name }}</p>
+        @endforeach
     </div>
-
-    </div class="column-end">
-
-    <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl ">
-        <x-card  src="/img/v6.jpeg"> </x-card>
-        <p class="text-center"> Marco con el principito</p>
-        <x-card  src="/img/v4.jpeg"> </x-card>
-        <p class="text-center"> Copas con diseños de flores</p>
-        <x-card  src="/img/v5.jpeg"> </x-card>
-        <p class="text-center"> Vitral para luz</p>
-        <x-card  src="/img/v2.jpeg"> </x-card>
-        <p class="text-center"> Colgante en forma de luna</p>
-
-    </div>
-
-
-
 </x-layout>

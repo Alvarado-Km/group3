@@ -23,30 +23,12 @@
     </div>
 
     <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl">
-        <x-card    src="/user/zapatos.jpg"> </x-card>
-        <p class="ml-20">Zapatillas de añil</p>
-        <x-card  src="/user/camiseta1.jpg"> </x-card>
-        <p class="ml-24"> Camiseta polo </p>
-        <x-card    src="/user/camsa.jpg"> </x-card>
-        <p class="ml-16 mr-4"> Camisa con bordado floral</p>
-        <x-card  src="/user/vestido.jpg"> </x-card>
-        <p class="ml-16"> Vestido para bebé con bordado</p>
-
+        @foreach ($products as $item)
+            <x-card src="/user/joyeria.jpg" id="{{$item->id}}"> </x-card>
+            <p class="ml-4 mr-4">{{ $item->name }}</p>
+        @endforeach
     </div>
 
-    </div class="column-end">
-
-    <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl ">
-        <x-card  src="/user/vestimenta.jpg"> </x-card>
-        <p class="ml-28"> Traje típico</p>
-        <x-card  src="/user/poncho.jpg"> </x-card>
-        <p class="ml-20"> Chal con bordado </p>
-        <x-card  src="/user/vestido.jpg"> </x-card>
-        <p class="ml-16 mr-4"> Vestido para bebé con bordado</p>
-        <x-card  src="/user/camiseta1.jpg"> </x-card>
-        <p class="ml-28"> Camiseta polo</p>
-
-    </div>
 
 </x-layout>
 

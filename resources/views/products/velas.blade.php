@@ -23,28 +23,10 @@
     </div>
 
     <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl">
-        <x-card    src="/user/velas5.jpg"> </x-card>
-        <p class="ml-20"> Vela cherry bloom </p>
-        <x-card  src="/user/velas6.jpg"> </x-card>
-        <p class="ml-20"> Variedad de velas </p>
-        <x-card    src="/user/velas1.jpg"> </x-card>
-        <p class="ml-20"> Velas anti-estrés</p>
-        <x-card  src="/user/velase.jpg"> </x-card>
-        <p class="ml-24"> Vela de canela </p>
-
+        @foreach ($products as $item)
+            <x-card src="/user/joyeria.jpg" id="{{$item->id}}"> </x-card>
+            <p class="ml-4 mr-4">{{ $item->name }}</p>
+        @endforeach
     </div>
 
-    </div class="column-end">
-
-    <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl ">
-        <x-card  src="/user/velas2.jpg"> </x-card>
-        <p class="ml-20"> Vela de vainilla</p>
-        <x-card  src="/user/velase.jpg"> </x-card>
-        <p class="ml-24"> Vela de canela</p>
-        <x-card  src="/user/velas4.jpg"> </x-card>
-        <p class="ml-20"> Velas olores festivos</p>
-        <x-card  src="/user/velas6.jpg"> </x-card>
-        <p class="ml-20"> Variedad de velas</p>
-
-    </div>
 </x-layout>

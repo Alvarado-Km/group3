@@ -22,29 +22,12 @@
         </form>
     </div>
 
+
     <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl">
-        <x-card  src="/img/c6.jpeg"> </x-card>
-        <p class="text-center">Taza con una mariposa</p>
-        <x-card    src="/img/c1.jpeg">  </x-card>
-        <p class="text-center mr-2"> Joyero en forma de caracol</p>
-        <x-card  src="/img/c2.jpeg"> </x-card>
-        <p class="text-center"> Tetera con diseño floral</p>
-        <x-card    src="/img/c3.jpeg"> </x-card>
-        <p class="text-center">Set mariposa y flores</p>
-    </div>
-
-    </div class="column-end">
-
-    <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl ">
-        <x-card  src="/img/c4.jpeg">  </x-card>
-        <p class="text-center">Set forma cactus</p>
-        <x-card  src="/img/c5.jpeg"> </x-card>
-        <p class="text-center"> Vasos para café</p>
-        <x-card  src="/img/c6.jpeg"> </x-card>
-        <p class="text-center">Taza con una mariposa</p>
-        <x-card    src="/img/c1.jpeg"> </x-card>
-        <p class="text-center">Joyero en forma de caracol</p>
-
+        @foreach ($products as $item)
+            <x-card src="/user/joyeria.jpg" id="{{$item->id}}"> </x-card>
+            <p class="ml-4 mr-4">{{ $item->name }}</p>
+        @endforeach
     </div>
 
 
