@@ -34,7 +34,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Esta silla esta hecha con madera muy resisgtente',
                 'price' => 10,
                 'stock_quantity' => 2,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 4,
                 'user_id' => $this->users()->random(),
             ],
             [

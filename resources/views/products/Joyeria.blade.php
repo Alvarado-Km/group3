@@ -22,12 +22,9 @@
             </form>
     </div>
 
-
-
-    <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl">
+    <div class="flex mt-36 ml-16 mb-16 font-common text-2xl">
         @foreach ($products as $item)
-            <x-card src="/user/joyas.jpg" id="{{$item->id}}"> </x-card>
-            <p class="ml-4 mr-4">{{ $item->name }}</p>
+            <x-card src="/user/joyas.jpg" id="{{$item->id}}" name="{{$item->name}}"/>
         @endforeach
     </div>
 </x-layout>
