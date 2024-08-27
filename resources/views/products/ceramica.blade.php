@@ -23,7 +23,7 @@
     </div>
 
 
-    <div class="columns-4 mt-36 ml-16 mb-16 font-common text-2xl">
+    <div class="grid grid-cols-4 mx-4 mt-36 mb-16 font-common text-2xl">
         @foreach ($products as $item)
             <x-card src="/user/joyas.jpg" id="{{$item->id}}" name="{{$item->name}}"/>
         @endforeach

@@ -10,15 +10,17 @@ use App\Models\User;
 
 class ProductSeeder extends Seeder
 {
-    public function categories() {
-        return once( function () {
+    public function categories()
+    {
+        return once(function () {
             return Category::pluck('id');
         });
     }
 
 
-    public function users() {
-        return once( function () {
+    public function users()
+    {
+        return once(function () {
             return User::where('is_artisan', true)->pluck('id');
         });
     }
@@ -42,7 +44,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Esta silla está hecha con madera muy resistente y tallada a mano.',
                 'price' => 50,
                 'stock_quantity' => 5,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 4,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -50,7 +52,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Jarrón pintado a mano con diseños tradicionales.',
                 'price' => 30,
                 'stock_quantity' => 10,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 6,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -58,7 +60,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Tapiz hecho a mano con lana de alpaca.',
                 'price' => 80,
                 'stock_quantity' => 3,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 2,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -66,7 +68,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Canasta tejida a mano ideal para decoraciones.',
                 'price' => 25,
                 'stock_quantity' => 15,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 4,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -74,7 +76,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Collar hecho a mano con cuentas de vidrio y piedras naturales.',
                 'price' => 20,
                 'stock_quantity' => 25,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 1,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -82,7 +84,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Escultura tallada a mano en piedra volcánica.',
                 'price' => 60,
                 'stock_quantity' => 7,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 6,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -90,7 +92,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Bolso hecho a mano con tejidos tradicionales.',
                 'price' => 40,
                 'stock_quantity' => 12,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 2,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -98,7 +100,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Alfombra tejida a mano con lana natural.',
                 'price' => 150,
                 'stock_quantity' => 4,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 2,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -106,7 +108,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Lámpara artesanal hecha con vidrio reciclado.',
                 'price' => 45,
                 'stock_quantity' => 6,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 11,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -114,7 +116,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Caja decorativa tallada a mano en madera.',
                 'price' => 35,
                 'stock_quantity' => 8,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 4,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -122,7 +124,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Máscara pintada a mano con detalles únicos.',
                 'price' => 55,
                 'stock_quantity' => 9,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 2,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -130,7 +132,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Sombrero tejido a mano con paja natural.',
                 'price' => 15,
                 'stock_quantity' => 20,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 2,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -138,7 +140,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Cartera artesanal hecha de cuero genuino.',
                 'price' => 70,
                 'stock_quantity' => 5,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 1,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -146,7 +148,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Portavelas decorativo hecho a mano.',
                 'price' => 20,
                 'stock_quantity' => 14,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 6,
                 'user_id' => $this->users()->random(),
             ],
             [
@@ -154,11 +156,114 @@ class ProductSeeder extends Seeder
                 'description' => 'Tazón hecho a mano con barro natural.',
                 'price' => 10,
                 'stock_quantity' => 18,
-                'category_id' => $this->categories()->random(),
+                'category_id' => 6,
                 'user_id' => $this->users()->random(),
-            ]
-            ];
+            ],
+            [
+                'name' => 'Flauta de bambú',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 20,
+                'stock_quantity' => 8,
+                'category_id' => 9,
+                'user_id' => $this->users()->random(),
+            ], [
+                'name' => 'Tambor',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 25,
+                'stock_quantity' => 10,
+                'category_id' => 9,
+                'user_id' => $this->users()->random(),
+            ], [
+                'name' => 'Maracas',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 20,
+                'stock_quantity' => 5,
+                'category_id' => 9,
+                'user_id' => $this->users()->random(),
+            ],
+            [
+                'name' => 'Vela de vainilla',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 15,
+                'stock_quantity' => 4,
+                'category_id' => 3,
+                'user_id' => $this->users()->random(),
+            ], [
+                'name' => 'Vela aromáticas',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 10,
+                'stock_quantity' => 4,
+                'category_id' => 3,
+                'user_id' => $this->users()->random(),
+            ], [
+                'name' => 'Vela de citronela',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 8,
+                'stock_quantity' => 9,
+                'category_id' => 3,
+                'user_id' => $this->users()->random(),
+            ],
+            [
+                'name' => 'Cocada',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 1,
+                'stock_quantity' => 12,
+                'category_id' => 12,
+                'user_id' => $this->users()->random(),
+            ], [
+                'name' => 'Maní dulce',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 1,
+                'stock_quantity' => 6,
+                'category_id' => 12,
+                'user_id' => $this->users()->random(),
+            ], [
+                'name' => 'Dulce de tamarindo',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 1,
+                'stock_quantity' => 20,
+                'category_id' => 12,
+                'user_id' => $this->users()->random(),
+            ],
+            [
+                'name' => 'Venta colorida',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 50,
+                'stock_quantity' => 5,
+                'category_id' => 11,
+                'user_id' => $this->users()->random(),
+            ], [
+                'name' => 'Ventana francesa',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 20,
+                'stock_quantity' => 4,
+                'category_id' => 11,
+                'user_id' => $this->users()->random(),
+            ], [
+                'name' => 'Florero',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 10,
+                'stock_quantity' => 2,
+                'category_id' => 11,
+                'user_id' => $this->users()->random(),
+            ],
+            [
+                'name' => 'Aretes de hilo',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 10,
+                'stock_quantity' => 20,
+                'category_id' => 1,
+                'user_id' => $this->users()->random(),
+            ], [
+                'name' => 'Pulseras de cuero',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 15,
+                'stock_quantity' => 10,
+                'category_id' => 1,
+                'user_id' => $this->users()->random(),
+            ],
+        ];
 
-            Product::factory(count($products))->sequence( fn ($sqn) => $products[$sqn->index])->create();
+        Product::factory(count($products))->sequence(fn($sqn) => $products[$sqn->index])->create();
     }
 }
