@@ -226,7 +226,7 @@ class ProductSeeder extends Seeder
                 'user_id' => $this->users()->random(),
             ],
             [
-                'name' => 'Venta colorida',
+                'name' => 'Ventana colorida',
                 'description' => 'Alfombra tejida a mano con lana natural.',
                 'price' => 50,
                 'stock_quantity' => 5,
@@ -254,12 +254,37 @@ class ProductSeeder extends Seeder
                 'stock_quantity' => 20,
                 'category_id' => 1,
                 'user_id' => $this->users()->random(),
-            ], [
+            ],
+            [
                 'name' => 'Pulseras de cuero',
                 'description' => 'Alfombra tejida a mano con lana natural.',
                 'price' => 15,
                 'stock_quantity' => 10,
-                'category_id' => 1,
+                'category_id' => 11,
+                'user_id' => $this->users()->random(),
+            ],
+            [
+                'name' => 'Vela con flores de colores',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 15,
+                'stock_quantity' => 10,
+                'category_id' => 3,
+                'user_id' => $this->users()->random(),
+            ],
+            [
+                'name' => 'Vela arcoíris',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 15,
+                'stock_quantity' => 10,
+                'category_id' => 3,
+                'user_id' => $this->users()->random(),
+            ],
+            [
+                'name' => 'Blusa añilada',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 15,
+                'stock_quantity' => 10,
+                'category_id' => 2,
                 'user_id' => $this->users()->random(),
             ],
         ];
