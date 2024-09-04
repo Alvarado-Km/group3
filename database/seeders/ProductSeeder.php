@@ -287,6 +287,38 @@ class ProductSeeder extends Seeder
                 'category_id' => 2,
                 'user_id' => $this->users()->random(),
             ],
+            [
+                'name' => 'Anillo de minbre',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 10,
+                'stock_quantity' => 25,
+                'category_id' => 1,
+                'user_id' => $this->users()->random(),
+            ],
+            [
+                'name' => 'Collar de perla',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 10,
+                'stock_quantity' => 10,
+                'category_id' => 1,
+                'user_id' => $this->users()->random(),
+            ],
+            [
+                'name' => 'Pulsera de tela',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 10,
+                'stock_quantity' => 20,
+                'category_id' => 1,
+                'user_id' => $this->users()->random(),
+            ],
+            [
+                'name' => 'Collar de piedras',
+                'description' => 'Alfombra tejida a mano con lana natural.',
+                'price' => 10,
+                'stock_quantity' => 20,
+                'category_id' => 1,
+                'user_id' => $this->users()->random(),
+            ],
         ];
 
         Product::factory(count($products))->sequence(fn($sqn) => $products[$sqn->index])->create();
