@@ -30,7 +30,7 @@
 
 
         </section>
-        <img src="img/devinitive.heic" class="w-screen h-min transition transition-colors mb-20">
+        <img src="img/definitive.jpg" class="w-screen h-min transition transition-colors mb-20">
 
 
         <section
@@ -64,7 +64,7 @@
         <section
             class="bg-center bg-scroll h-screen   bg-[url('https://i.pinimg.com/originals/4d/fc/2c/4dfc2c8697a77b385ad47498c6499182.gif')] bg-slate-50 bg-blend-multiply">
 
-            <h1 class="font-title text-4xl grid place-items-center   "> Nuestros valores</h1>
+            <h1 class="font-title text-4xl grid justify-items-center inset-x-0 bottom-0   "> Nuestros valores</h1>
 
             <div class="columns-6 font-common text-4xl   mt-24 ml-16 mb-16">
                 <img class="rounded-full  col-start-1 h-40" src="img/number1.png"> </img>
