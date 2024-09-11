@@ -256,14 +256,6 @@ class ProductSeeder extends Seeder
                 'user_id' => $this->users()->random(),
             ],
             [
-                'name' => 'Pulseras de cuero',
-                'description' => 'Accesorios hechos a mano que utilizan cuero genuino para su confección.',
-                'price' => 15,
-                'stock_quantity' => 10,
-                'category_id' => 11,
-                'user_id' => $this->users()->random(),
-            ],
-            [
                 'name' => 'Vela con flores de colores',
                 'description' => 'Velas decorativas que incorporan flores secas, prensadas o artificiales en su diseño.',
                 'price' => 15,

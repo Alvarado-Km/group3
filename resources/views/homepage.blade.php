@@ -37,7 +37,7 @@
         <h2 class="font-common grid justify-items-center mr-32  text-xl"> JOYERIA </h2>
 
         <a href="/products/velas">
-        <img class="rounded-full col-start-3 h-56" src="img/Velas.jpg">
+        <img class="rounded-full col-start-3 h-56" src="img/Velas.png">
 
     </img></a>
         <h2 class="font-common grid justify-items-center mr-32  text-xl">VELAS</h2>

@@ -25,7 +25,7 @@
 
     <div class="grid grid-cols-4 mx-4 mt-36 mb-16 font-common text-2xl">
         @foreach ($products as $item)
-            <x-card src="/user/joyas.jpg" id="{{$item->id}}" name="{{$item->name}}"/>
+        <x-card src='{{ asset("/img/productos/ceramica$item->id.jpeg") }}' id="{{$item->id}}" name="{{$item->name}}"/>
         @endforeach
     </div>
 
