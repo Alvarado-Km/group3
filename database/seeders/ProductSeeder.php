@@ -200,8 +200,8 @@ class ProductSeeder extends Seeder
                 'user_id' => $this->users()->random(),
             ],
             [
-                'name' => 'Maní dulce',
-                'description' => 'es un snack elaborado con maní cubierto de una capa de caramelo.',
+                'name' => 'Maní salado',
+                'description' => 'es un snack elaborado con maní con un toque de sal.',
                 'price' => 1,
                 'stock_quantity' => 6,
                 'category_id' => 12,
