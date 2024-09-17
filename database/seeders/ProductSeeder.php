@@ -144,14 +144,6 @@ class ProductSeeder extends Seeder
                 'user_id' => $this->users()->random(),
             ],
             [
-                'name' => 'Portavelas de Cerámica',
-                'description' => 'Portavelas decorativo hecho a mano.',
-                'price' => 20,
-                'stock_quantity' => 14,
-                'category_id' => 6,
-                'user_id' => $this->users()->random(),
-            ],
-            [
                 'name' => 'Tazón de Barro',
                 'description' => 'Tazón hecho a mano con barro natural.',
                 'price' => 10,
@@ -166,14 +158,16 @@ class ProductSeeder extends Seeder
                 'stock_quantity' => 8,
                 'category_id' => 9,
                 'user_id' => $this->users()->random(),
-            ], [
+            ],
+            [
                 'name' => 'Tambor',
                 'description' => 'Un instrumento de percusión hecho a mano utilizando materiales naturales como madera, cuero y cuerda.',
                 'price' => 25,
                 'stock_quantity' => 10,
                 'category_id' => 9,
                 'user_id' => $this->users()->random(),
-            ], [
+            ],
+            [
                 'name' => 'Maracas',
                 'description' => 'Son instrumentos hechos a mano con materiales como calabazas secas, cocos o madera, que se rellenan con semillas.',
                 'price' => 20,
@@ -188,14 +182,8 @@ class ProductSeeder extends Seeder
                 'stock_quantity' => 4,
                 'category_id' => 3,
                 'user_id' => $this->users()->random(),
-            ], [
-                'name' => 'Vela aromáticas',
-                'description' => 'Velas perfumadas con aceites esenciales o fragancias sintéticas .',
-                'price' => 10,
-                'stock_quantity' => 4,
-                'category_id' => 3,
-                'user_id' => $this->users()->random(),
-            ], [
+            ],
+            [
                 'name' => 'Vela de citronela',
                 'description' => 'vela perfumada con aceite esencial de citronela.',
                 'price' => 8,
@@ -210,14 +198,16 @@ class ProductSeeder extends Seeder
                 'stock_quantity' => 12,
                 'category_id' => 12,
                 'user_id' => $this->users()->random(),
-            ], [
+            ],
+            [
                 'name' => 'Maní dulce',
                 'description' => 'es un snack elaborado con maní cubierto de una capa de caramelo.',
                 'price' => 1,
                 'stock_quantity' => 6,
                 'category_id' => 12,
                 'user_id' => $this->users()->random(),
-            ], [
+            ],
+            [
                 'name' => 'Dulce de tamarindo',
                 'description' => 'Una golosina elaborada a partir de la pulpa del tamarindo, mezclada con azúcar.',
                 'price' => 1,
@@ -232,14 +222,16 @@ class ProductSeeder extends Seeder
                 'stock_quantity' => 5,
                 'category_id' => 11,
                 'user_id' => $this->users()->random(),
-            ], [
+            ],
+            [
                 'name' => 'Ventana francesa',
                 'description' => 'Una ventana con un diseño tradicional que suele tener marcos de madera pintados o barnizados a mano.',
                 'price' => 20,
                 'stock_quantity' => 4,
                 'category_id' => 11,
                 'user_id' => $this->users()->random(),
-            ], [
+            ],
+            [
                 'name' => 'Florero',
                 'description' => 'Un recipiente hecho a mano, con una variedad de materiales como cerámica, vidrio, madera, metal.',
                 'price' => 10,
@@ -256,43 +248,11 @@ class ProductSeeder extends Seeder
                 'user_id' => $this->users()->random(),
             ],
             [
-                'name' => 'Vela con flores de colores',
-                'description' => 'Velas decorativas que incorporan flores secas, prensadas o artificiales en su diseño.',
-                'price' => 15,
-                'stock_quantity' => 10,
-                'category_id' => 3,
-                'user_id' => $this->users()->random(),
-            ],
-            [
                 'name' => 'Vela arcoíris',
                 'description' => 'Vela decorativa que presenta franjas de colores dispuestas en un patrón de arcoíris.',
                 'price' => 15,
                 'stock_quantity' => 10,
                 'category_id' => 3,
-                'user_id' => $this->users()->random(),
-            ],
-            [
-                'name' => 'Blusa añilada',
-                'description' => 'Prenda de vestir que ha sido teñida con el color añil, un tono de azul profundo.',
-                'price' => 15,
-                'stock_quantity' => 10,
-                'category_id' => 2,
-                'user_id' => $this->users()->random(),
-            ],
-            [
-                'name' => 'Anillo de minbre',
-                'description' => 'Alfombra tejida a mano con lana natural.',
-                'price' => 10,
-                'stock_quantity' => 25,
-                'category_id' => 1,
-                'user_id' => $this->users()->random(),
-            ],
-            [
-                'name' => 'Collar de perla',
-                'description' => 'Alfombra tejida a mano con lana natural.',
-                'price' => 10,
-                'stock_quantity' => 10,
-                'category_id' => 1,
                 'user_id' => $this->users()->random(),
             ],
             [
