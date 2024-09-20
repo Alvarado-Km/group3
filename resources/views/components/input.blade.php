@@ -1,10 +1,11 @@
 @props(['titulo'])
 
-<div class="inline-block align-top my-3">
+<div class="align-top my-3 w-full">
     <label class="block">{{ $titulo }}</label>
-    <input {{ $attributes }} class="cursor-pointer disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
-    invalid:border-pink-500 invalid:text-pink-600
-    focus:invalid:border-pink-500 focus:invalid:ring-pink-500 font-common text-black bg-white border hover border-slate-300  hover:bg-[#F5DEB3] active:bg-[#966919] focus:outline-none focus:ring focus:ring-[#988558] rounded-lg px-2 -py-1 shadow-xl">
+    <input {{ $attributes }} class="cursor-pointer w-full disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200
+    disabled:shadow-none invalid:border-[#b32718] invalid:text-[#b32718]
+    focus:invalid:border-[#b32718] focus:invalid:ring-[#b32718] font-common text-black bg-white border hover border-slate-300
+    focus:outline-none focus:ring focus:ring-[#988558] rounded-xl px-3 py-1 shadow-xl">
     @error($attributes['name'])
         <p>{{ $message }} </p>
     @enderror

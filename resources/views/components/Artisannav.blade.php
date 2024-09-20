@@ -1,9 +1,10 @@
-<nav class="break-after-all sticky top-0 z-50 bg-white">
+<nav class="break-after-all sticky top-0 z-50 bg-white pt-2">
     <div class="static">
         <h1 class="text-6xl font-title grid place-items-center">Artesía</h1>
     </div>
+
     <!-- Perfil -->
-    <a href="/products/ProfileArtisan">
+    <a href="{{ route('profile.artisan') }}">
         <svg class="absolute top-0 right-6 h-16 w-10 " xmlns="http://www.w3.org/2000/svg" height="24px"
             viewBox="0 -960 960 960" width="24px" fill="#5f6368">
             <path
@@ -12,7 +13,7 @@
     </a>
 
     <!-- Añadir nuevo producto -->
-    <a href="/products/create">
+    <a href="{{ route('products.create') }}">
         <svg class="absolute top-0 right-20 h-16 w-10 " xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
             <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
         </svg>

@@ -14,20 +14,56 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         $categories = [
-            'Joyería',
-            'Ropa',
-            'Velas',
-            'Muebles',
-            'Alfarería',
-            'Cerámica',
-            'Textiles',
-            'Madera',
-            'Instrumentos',
-            'Arte con metal',
-            'Vidrio',
-            'Dulces típicos',
+            [
+                'name' => 'Joyería',
+                'img' => '/img/categories/joyeria.jpg'
+            ],
+            [
+                'name' => 'Textiles',
+                'img' => '/img/categories/ropa.jpeg'
+            ],
+            [
+                'name' => 'Velas',
+                'img' => '/img/categories/velas.png'
+            ],
+            [
+                'name' => 'Muebles',
+                'img' => '/img/categories/muebles.jpg'
+            ],
+            //[
+              //  'name' => 'Alfarería',
+              //  'img' => ''
+            //],
+            [
+                'name' => 'Cerámica',
+                'img' => '/img/categories/ceramica.jpeg'
+            ],
+           // [
+             //   'name' => 'Textiles',
+              //  'img' => ''
+            //],
+           // [
+           //     'name' => 'Madera',
+           //     'img' => ''
+           // ],
+            [
+                'name' => 'Instrumentos',
+                'img' => '/img/categories/instrumentos.jpg'
+            ],
+            //[
+            //    'name' => 'Arte con metal',
+            //    'img' => ''
+            //],
+            [
+                'name' => 'Vidrio',
+                'img' => '/img/categories/vidrios.jpg'
+            ],
+            [
+                'name' => 'Dulces típicos',
+                'img' => '/img/categories/dulces.jpg'
+            ],
         ];
 
-        Category::factory(count($categories))->sequence( fn ($sqn) => ['name' => $categories[$sqn->index]])->create();
+        Category::factory(count($categories))->sequence( fn ($sqn) => $categories[$sqn->index])->create();
     }
 }

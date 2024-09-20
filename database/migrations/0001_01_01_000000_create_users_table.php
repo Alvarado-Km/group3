@@ -20,6 +20,7 @@ return new class extends Migration
             $table->date('birthday')->nullable();
             $table->string('state')->nullable();
             $table->boolean('is_artisan')->default(false);
+            $table->text('description')->nullable();
             $table->timestamps();
         });
 

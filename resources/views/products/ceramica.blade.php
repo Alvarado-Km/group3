@@ -1,33 +1,62 @@
 <x-layout>
-    <div>
+    <x-allnav/>
 
-        <x-allnav></x-allnav>
+    <div class="flex justify-center mt-5">
+        <img class="    w-64 h-64 rounded-full" src="/img/5.jpg" alt="Rounded avatar">
 
-        <form class="ml-10  max-w-96 ">
-            <label for="default-search"
-                class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-            <div class="relative">
-                <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400 " aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                    </svg>
-                </div>
-                <input type="search" id="default-search"
-                    class=" font-common block  p-4 ps-10 text-sm text-black border border-gray-300 rounded-full   dark:bg-gray-300    "
-                    placeholder="  Buscar" required />
-
-            </div>
-        </form>
+    </div>
+    <h1 class="font-title text-2xl flex justify-center mt-5 ">Abigail Martinez </h1>
+    <div class="mt-5 flex justify-center">
+        <svg class="fill-black  " xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+        <h1 class="font-common" >elaissa.lopez@gmail.com</h1>
     </div>
 
-
-    <div class="grid grid-cols-4 mx-4 mt-36 mb-16 font-common text-2xl">
-        @foreach ($products as $item)
-        <x-card src='{{ asset("/img/productos/ceramica$item->id.jpeg") }}' id="{{$item->id}}" name="{{$item->name}}"/>
-        @endforeach
+    <div class="mt-5 flex justify-around">
+        <button class="Border font-title  border-gray-400 bg-gray-400 rounded-full py-4 px-20 ">Favorito</button>
+        <button class="Border font-title border-orange-400 bg-orange rounded-full py-3 px-20 " >Mis compras</button>
+        <button class="Border font-title border-gray-400 bg-gray-400 rounded-full py-3 px-20 " >Ordenes</button>
     </div>
 
+    <div class="mt-5 ml-5 grid grid-cols-5 mb-5 ">
+
+        <div>
+            <a href="#" class="  mt-10 flex flex-col items-center bg-white  rounded-lg  md:flex-row md:max-w-xl  ">
+                <img class="h-auto max-w-xs size-60 rounded" src="/img/5.jpg" alt="">
+            </a>
+            <a href="#" class="  mt-5 flex flex-col items-center bg-white  rounded-lg  md:flex-row md:max-w-xl  ">
+                <img class="h-auto max-w-xs size-60 rounded" src="/img/10.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#" class="  mt-10 flex flex-col items-center bg-white  rounded-lg  md:flex-row md:max-w-xl  ">
+                <img class="h-auto max-w-xs size-60 rounded" src="/img/6.jpg" alt="">
+            </a>
+            <a href="#" class="  mt-10 flex flex-col items-center bg-white  rounded-lg  md:flex-row md:max-w-xl  ">
+                <img class="h-auto max-w-xs size-60 rounded" src="https://i.pinimg.com/originals/76/bc/18/76bc18531ec18c6ab04e6b24f8f108ec.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#" class="  mt-10 flex flex-col items-center bg-white  rounded-lg  md:flex-row md:max-w-xl  ">
+                <img class="h-auto max-w-xs size-60 rounded" src="/img/7.jpg" alt="">
+            </a>
+            <a href="#" class="  mt-5 flex flex-col items-center bg-white  rounded-lg  md:flex-row md:max-w-xl  ">
+                <img class="h-auto max-w-xs size-60 rounded" src="/img/3.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#" class="  mt-10 flex flex-col items-center bg-white  rounded-lg  md:flex-row md:max-w-xl  ">
+                <img class="h-auto max-w-xs size-60 rounded" src="/img/8.jpg" alt="">
+            </a>
+            <a href="#" class="  mt-5 flex flex-col items-center bg-white  rounded-lg  md:flex-row md:max-w-xl  ">
+                <img class="h-auto max-w-xs size-60 rounded" src="/img/4.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#" class="  mt-10 flex flex-col items-center bg-white  rounded-lg  md:flex-row md:max-w-xl  ">
+                <img class="h-auto max-w-xs size-60 rounded" src="/img/9.jpg" alt="">
+            </a>
+        </div>
+    </div>
 
 </x-layout>
+

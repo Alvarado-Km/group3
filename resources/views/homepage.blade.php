@@ -1,6 +1,5 @@
 <x-layout>
-
-   <x-primarynav> </x-primarynav>
+   <x-primarynav/>
 
     <!--display-->
     <swiper-container class="h-[80vh] mt-7" pagination="true" pagination-clickable="true" navigation="true"
@@ -22,55 +21,17 @@
             </swiper-slide>
     </swiper-container>
 
-<!-- categories -->
-    <div class="columns-4 mt-36 ml-16 mb-16">
-        <a href="/products/ropa">
-        <img  class="rounded-full col-start-1 h-56" src="img/ropa.jpeg">
-        </a>
-        <h2 class="font-common grid justify-items-center mr-32  text-xl "> ROPA </h2>
-
-        </img>
-        <a href="/products/joyeria">
-        <img class="rounded-full col-start-2 h-56" src="img/Joyeria.jpg">
-        </a>
-        </img>
-        <h2 class="font-common grid justify-items-center mr-32  text-xl"> JOYERIA </h2>
-
-        <a href="/products/velas">
-        <img class="rounded-full col-start-3 h-56" src="img/Velas.png">
-
-    </img></a>
-        <h2 class="font-common grid justify-items-center mr-32  text-xl">VELAS</h2>
-
-
-        <a href="/products/muebles">
-        <img class="rounded-full column-end h-56" src="img/muebles.jpg">
-      </img> </a>
-        <h2 class="font-common grid justify-items-center mr-32 text-xl">MUEBLES</h2>
-
-
-    </div class="column-end">
-
-    <div class="columns-4 mt-10 ml-16 mb-16 ">
-        <a href="/products/ceramica">
-        <img class="rounded-full col-start-1 h-56" src="img/ceramica.jpeg">
-</img> </a>
-        <h2 class="font-common pl-14 mr-32 text-xl">CERAMICA</h2>
-<a href="/products/instrumentos">
-        <img class="rounded-full col-start-2 h-56" src="img/Instrumentos.jpg">
- </img> </a>
-        <h2 class="font-common pl-10 mr-32 text-xl">INSTRUMENTOS</h2>
-<a href="/products/vidrios">
-        <img class="rounded-full col-start-3 h-56" src="img/Vidrios.jpg">
-        </img> </a>
-        <h2 class="font-common pl-16 mr-32 text-xl">VIDRIOS</h2>
-<a href="/products/dulces">
-        <img class="rounded-full col-start-4 h-56" src="img/Dulces.jpg"> </img>
-</a>
-        <h2 class="font-common pl-20 mr-32 text-xl">DULCES</h2>
-
-
+    <div class="static">
+        <h1 class="text-3xl grid place-items-center font-common my-20">Explora nuestras categorías</h1>
     </div>
 
-
+    <!-- categories -->
+    <div class="grid grid-cols-4 gap-y-10 mx-12 mb-16">
+        @foreach($categories as $category)
+            <a href="{{ route('categories', $category->id) }}">
+                <img  class="rounded-full h-56 mx-auto" src="{{ asset($category->img) }}">
+                <h2 class="font-common text-center text-xl mt-2"> {{ $category->name }} </h2>
+            </a>
+        @endforeach
+    </div>
 </x-layout>

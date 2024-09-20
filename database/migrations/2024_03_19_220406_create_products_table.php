@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->text('description');
             $table->double('price');
+            $table->text('story');
             $table->integer('stock_quantity')->nullable();
             $table->foreignIdFor(Category::class)->constrained();
             $table->foreignIdFor(User::class)->constrained();

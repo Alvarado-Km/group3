@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class Category extends Model
 {
     use HasFactory;
-    public function Products(): HasMany
+    public function products(): HasMany
     {
         return $this->hasMany(Product::class);
     }

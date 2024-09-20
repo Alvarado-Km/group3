@@ -29,12 +29,6 @@ class ReviewSeeder extends Seeder
     {
         $reviews = [
             [
-            'user_id' => $this->users()->random(),
-            'product_id' => $this->product()->random(),
-            'rating' => 3,
-            'comment' => 'Este producto esta hecho de muy buena calidad',
-            ],
-            [
                 'user_id' => $this->users()->random(),
                 'product_id' => $this->product()->random(),
                 'rating' => 3,
@@ -55,14 +49,14 @@ class ReviewSeeder extends Seeder
             [
                 'user_id' => $this->users()->random(),
                 'product_id' => $this->product()->random(),
-                'rating' => 2,
-                'comment' => 'El producto es regular, podría mejorar',
+                'rating' => 4,
+                'comment' => 'El producto es de buena calidad y estoy satisfecho',
             ],
             [
                 'user_id' => $this->users()->random(),
                 'product_id' => $this->product()->random(),
-                'rating' => 1,
-                'comment' => 'No estoy satisfecho con la calidad del producto',
+                'rating' => 4,
+                'comment' => 'Muy satisfecho con la compra, lo recomendaría',
             ],
             [
                 'user_id' => $this->users()->random(),
@@ -91,8 +85,63 @@ class ReviewSeeder extends Seeder
             [
                 'user_id' => $this->users()->random(),
                 'product_id' => $this->product()->random(),
-                'rating' => 2,
-                'comment' => 'No es lo que esperaba, la calidad puede mejorar',
+                'rating' => 4,
+                'comment' => 'El producto superó mis expectativas',
+            ],
+            // Nuevas reseñas
+            [
+                'user_id' => $this->users()->random(),
+                'product_id' => $this->product()->random(),
+                'rating' => 3,
+                'comment' => 'El producto es bueno, aunque esperaba algo más',
+            ],
+            [
+                'user_id' => $this->users()->random(),
+                'product_id' => $this->product()->random(),
+                'rating' => 5,
+                'comment' => 'Perfecto, más de lo que esperaba',
+            ],
+            [
+                'user_id' => $this->users()->random(),
+                'product_id' => $this->product()->random(),
+                'rating' => 4,
+                'comment' => 'Buena relación calidad-precio, recomendable',
+            ],
+            [
+                'user_id' => $this->users()->random(),
+                'product_id' => $this->product()->random(),
+                'rating' => 5,
+                'comment' => 'Sorprendentemente buena calidad, lo volvería a comprar',
+            ],
+            [
+                'user_id' => $this->users()->random(),
+                'product_id' => $this->product()->random(),
+                'rating' => 5,
+                'comment' => 'Muy buena experiencia, lo recomendaría sin dudas',
+            ],
+            [
+                'user_id' => $this->users()->random(),
+                'product_id' => $this->product()->random(),
+                'rating' => 3,
+                'comment' => 'Está bien, pero sigue siendo una buena compra',
+            ],
+            [
+                'user_id' => $this->users()->random(),
+                'product_id' => $this->product()->random(),
+                'rating' => 4,
+                'comment' => 'Cumple con lo prometido, satisfecho con la compra',
+            ],
+            [
+                'user_id' => $this->users()->random(),
+                'product_id' => $this->product()->random(),
+                'rating' => 5,
+                'comment' => 'Increíble calidad por el precio, definitivamente lo recomiendo',
+            ],
+            [
+                'user_id' => $this->users()->random(),
+                'product_id' => $this->product()->random(),
+                'rating' => 4,
+                'comment' => 'Muy buen producto, volvería a comprarlo',
             ],
         ];
 
