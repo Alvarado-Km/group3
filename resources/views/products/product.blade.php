@@ -3,7 +3,7 @@
 
     <div class="grid grid-cols-2 gap-2 m-16">
         <div class="">
-            <swiper-container class="h-96 my-7 mr-10" pagination="true" pagination-clickable="true" navigation="true"
+            <swiper-container class="h-[70vh] my-7 mr-10" pagination="true" pagination-clickable="true" navigation="true"
                 slides-per-view="1" space-between="30" centered-slides="true" loop="true" autoplay="true">
                 <swiper-slide class="">
                     <img src='{{ asset("/img/$producto->id/$producto->id.1.jpeg") }}' class="w-fit">

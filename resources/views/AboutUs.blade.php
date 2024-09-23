@@ -11,8 +11,8 @@
                 </div>
 
                 <div class="grid place-items-center col-start-4 col-span-6">
-                    <h2 class="text-4xl font-title mt-5"> Who we are </h2>
-                    <p class="text-xl mx-36 text-justify font-common">Somos Artesía, y nos dedicamos a
+                    <h2 class="text-4xl font-title mt-5"> ¿Quiénes somos? </h2>
+                    <p class="text-xl mx-36 text-justify font-common -mt-20">Somos Artesía, y nos dedicamos a
                         preservar y promover el arte artesanal, colaborando directamente con
                         talentosos artesanos para ofrecer productos únicos y de alta calidad. Valoramos la
                         sostenibilidad y el comercio justo, creando un impacto positivo en las comunidades artesanas. Descubre piezas auténticas y
@@ -42,9 +42,9 @@
         </section>
 
         <section
-            class="bg-center pt-20 bg-scroll bg-[url('https://i.pinimg.com/originals/4d/fc/2c/4dfc2c8697a77b385ad47498c6499182.gif')] bg-slate-50 bg-blend-multiply">
+            class="bg-center pt-20  bg-[url('https://i.pinimg.com/originals/4d/fc/2c/4dfc2c8697a77b385ad47498c6499182.gif')] bg-slate-50 bg-blend-multiply">
 
-            <h1 class="font-title text-4xl grid justify-items-center pt-16">Nuestros valores</h1>
+            <h1 class="font-title text-4xl grid justify-items-center pt-12">Nuestros valores</h1>
 
             <div class="grid grid-cols-3 font-common text-3xl mt-24 mb-10">
                 <div class="flex items-center mx-auto space-x-4 my-6">
