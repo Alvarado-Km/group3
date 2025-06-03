@@ -1,3 +1,4 @@
+
 <nav class="break-after-all sticky top-0 z-50 bg-white">
     <div class="static">
         <a class="text-6xl font-title grid place-items-center pt-2" href="{{ route('welcome') }}">Artesía</a>
