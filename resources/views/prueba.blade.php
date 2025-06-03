@@ -27,7 +27,7 @@
          <a href="/products/ropa">
          <img  class="rounded-full col-start-1 h-56" src="img/ropa.jpeg">
          </a>
-         <h2 class="font-common grid justify-items-center mr-32  text-xl "> ROPA </h2>
+         <h2 class="font-common grid justify-items-center mr-32  text-xl "> Hola Mundo </h2>
 
          </img>
          <a href="/products/joyeria">
