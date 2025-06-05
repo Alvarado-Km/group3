@@ -20,9 +20,9 @@
 
         <div class="grid grid-cols-4 mx-4 mb-16 font-common text-2xl mt-6 h-fit">
             <template x-for="item in filteredProducts">
-                <a :href="`/handicrafts/${item.id}`" class=" ml-10 flex flex-col items-center bg-white  rounded-lg  md:flex-row md:max-w-xl  ">
+                <a :href="`/handicrafts/{item.id}`" class=" ml-10 flex flex-col items-center bg-white  rounded-lg  md:flex-row md:max-w-xl  ">
                     <div class="flex flex-col justify-between p-4 leading-normal">
-                        <img :src="`/img/productos/${category.id+'.'+item.id}.jpeg`" class="object-cover size-64 rounded" >
+                        <img :src="`/img/productos/{category.id+'.'+item.id}.jpeg`" class="object-cover size-64 rounded" >
                         <p class="ml-4 mr-4" x-text="item.name"></p>
                     </div>
                 </a>
