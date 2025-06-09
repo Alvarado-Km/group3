@@ -1,9 +1,9 @@
 <x-layout>
-    <div class=" bg-cover bg-center" style="background-image: url({{ asset('/img/2.png') }}">
+    <img src="{{ asset('/img/signin.jpg') }}" class="absolute right-0 h-full max-w-full" />
         <div class="w-screen h-screen grid md:grid-cols-2 place-items-center">
             <div class="col-start-1 pb-4 grid place-items-center">
                 <div class="py-16 text-6xl">
-                    <h1 class="font-title text-center">Log In</h1>
+                    <h1 class="font-title text-center">Inicio de sesión</h1>
                 </div>
 
                 <form method="POST" action="{{ route('login') }}"
@@ -12,12 +12,13 @@
 
                     <x-input titulo="Email" type="email" name="email" />
                     <x-input titulo="Contraseña" type="password" name="password" />
+                    <h1 class="text-blue-600 hover:text-slate-600 underline">¿Olvidaste tu contraseña?</h1>
                     <x-button type="submit">Continuar</x-button>
 
                     <p class= "pt-4 ">¿Nuevo usuario? </p>
-                    <a href="{{ route('signup') }}" class="hover:text-slate-600  text-[#48492d] animate-pulse underline decoration-solid"> Crear cuenta </a>
+                    <a href="{{ route('signup') }}" class="hover:text-slate-600  text-blue-600 animate-pulse underline decoration-solid"> Crear cuenta </a>
                 </form>
             </div>
         </div>
-    </div>
+
 </x-layout>

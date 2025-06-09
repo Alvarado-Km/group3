@@ -72,10 +72,9 @@ Route::get('/prueba', function () {
     return view('prueba');
 });
 
-
-
-
-
+Route::get('/payment', function () {
+    return view(view: 'products.payment');
+});
 
 
 
