@@ -90,7 +90,7 @@
                 <div
                     class="max-w-sm bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-800 dark:border-gray-700">
                     <a>
-                        <img class="rounded-xl max-h-90" src="/img/categories/instru.jpg" alt="" />
+                        <img class="rounded-xl" src="/img/categories/instru.jpg" alt="" />
                     </a>
 
                     <div class="p-0.5">
