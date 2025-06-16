@@ -65,7 +65,7 @@
             </form>
         </div>
         <!--Débito o credito-->
-        <div class=" grid col-start-4 col-end-4 ml-6">
+        <div class=" grid col-start-4 col-end-4 ">
 
             <form method="POST" class="font-common w-auto grid place-items-center shadow-2xl rounded-xl  px-16 py-6 ">
                 @csrf
