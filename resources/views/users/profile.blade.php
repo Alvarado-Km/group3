@@ -66,12 +66,12 @@
 
 
 </div class=" mt-20 " >
-<!-- botones de Favoritos,compras y reseñas -->
+<!-- botones de Favoritos,compras  -->
 <div class="flex space-x-6 border-b ml-20" >
    <a  href="/profile">
   <button class="text-gray-500 text-xl text-red-600  mr-10 border-b-2  border-red-600 pb-2  ">Mis compras</button>
    </a>
-    <a  href="/profile">
+    <a  href="/favorite">
   <button class="text-gray-500 text-xl hover:text-red-600  mr-10 border-b-2  hover:border-red-600 pb-2">Favorito</button>
    </a>
 </div>
