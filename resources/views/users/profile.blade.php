@@ -66,11 +66,14 @@
 
 
 </div class=" mt-20 " >
-<!-- botones de Favoritos,compras y reseñas -->
+<!-- botones de Favoritos,compras  -->
 <div class="flex space-x-6 border-b ml-20" >
-  <button class="text-gray-500 text-xl hover:text-red-600  mr-10 border-b-2  hover:border-red-600 pb-2  ">Mis compras</button>
+   <a  href="/profile">
+  <button class="text-gray-500 text-xl text-red-600  mr-10 border-b-2  border-red-600 pb-2  ">Mis compras</button>
+   </a>
+    <a  href="/favorite">
   <button class="text-gray-500 text-xl hover:text-red-600  mr-10 border-b-2  hover:border-red-600 pb-2">Favorito</button>
-  <button class="text-gray-500 text-xl hover:text-red-600 border-b-2  hover:border-red-600 pb-2">Reseñas</button>
+   </a>
 </div>
 
 <!-- Tarjetas -->
@@ -90,10 +93,10 @@
     </div>
     
     <h3 class="font-semibold text-lg">Jarrón de Cerámica Artesanal</h3>
-    <p class="text-sm text-gray-500">Comprado el 15 de mayo, 2023</p>
+    <p class="text-sm text-gray-500">Comprado el 15 de mayo, 202</p>
     
     <div class="flex justify-between items-center mt-2">
-      <span class="text-green-700 font-bold">$1,250.00</span>
+      <span class="text-green-700 font-bold">$120.00</span>
       <a href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
     </div>
   </div>
@@ -103,15 +106,15 @@
     <span class="absolute top-2 right-2 bg-yellow-400 text-white text-xs font-bold px-2 py-0.5 rounded">En camino</span>
     
     <div class="bg-gray-200 h-32 flex items-center justify-center rounded mb-4">
-      <img src="https://via.placeholder.com/80" alt="Producto">
+      <img src="/img/8.jpg" class="h-full w-full object-cover">
     </div>
     
-    <h3 class="font-semibold text-lg">Tapete Tejido a Mano</h3>
+    <h3 class="font-semibold text-lg">Cartera de manta</h3>
     <p class="text-sm text-gray-500">Comprado el 2 de junio, 2023</p>
     
     <div class="flex justify-between items-center mt-2">
-      <span class="text-green-700 font-bold">$2,800.00</span>
-      <a href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
+      <span class="text-green-700 font-bold">$10.00</span>
+      <a  href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
     </div>
   </div>
 </div>
@@ -122,14 +125,14 @@
     <span class="absolute top-2 right-2 text-xs text-gray-400 font-semibold">Entregado</span>
     
     <div class="bg-gray-200 h-32 flex items-center justify-center rounded mb-4">
-      <img src="https://via.placeholder.com/80" alt="Producto">
+      <img src="/img/5.jpg" class="h-full w-full object-cover">
     </div>
     
     <h3 class="font-semibold text-lg">Jarrón de Cerámica Artesanal</h3>
     <p class="text-sm text-gray-500">Comprado el 15 de mayo, 2023</p>
     
     <div class="flex justify-between items-center mt-2">
-      <span class="text-green-700 font-bold">$1,250.00</span>
+      <span class="text-green-700 font-bold">$35.00</span>
       <a href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
     </div>
   </div>
@@ -139,14 +142,14 @@
     <span class="absolute top-2 right-2 bg-yellow-400 text-white text-xs font-bold px-2 py-0.5 rounded">En camino</span>
     
     <div class="bg-gray-200 h-32 flex items-center justify-center rounded mb-4">
-      <img src="https://via.placeholder.com/80" alt="Producto">
+       <img src="/img/c3.jpeg" class="h-full w-full object-cover">
     </div>
     
     <h3 class="font-semibold text-lg">Tapete Tejido a Mano</h3>
     <p class="text-sm text-gray-500">Comprado el 2 de junio, 2023</p>
     
     <div class="flex justify-between items-center mt-2">
-      <span class="text-green-700 font-bold">$2,800.00</span>
+      <span class="text-green-700 font-bold">$20.00</span>
       <a href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
     </div>
   </div>
@@ -158,14 +161,14 @@
     <span class="absolute top-2 right-2 text-xs text-gray-400 font-semibold">Entregado</span>
     
     <div class="bg-gray-200 h-32 flex items-center justify-center rounded mb-4">
-      <img src="https://via.placeholder.com/80" alt="Producto">
+      <img src="/img/c4.jpeg" class="h-full w-full object-cover">
     </div>
     
     <h3 class="font-semibold text-lg">Jarrón de Cerámica Artesanal</h3>
     <p class="text-sm text-gray-500">Comprado el 15 de mayo, 2023</p>
     
     <div class="flex justify-between items-center mt-2">
-      <span class="text-green-700 font-bold">$1,250.00</span>
+      <span class="text-green-700 font-bold">$150</span>
       <a href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
     </div>
   </div>
@@ -175,14 +178,14 @@
     <span class="absolute top-2 right-2 bg-yellow-400 text-white text-xs font-bold px-2 py-0.5 rounded">En camino</span>
     
     <div class="bg-gray-200 h-32 flex items-center justify-center rounded mb-4">
-      <img src="https://via.placeholder.com/80" alt="Producto">
+      <img src="/img/6.jpg" class="h-full w-full object-cover">
     </div>
     
     <h3 class="font-semibold text-lg">Tapete Tejido a Mano</h3>
     <p class="text-sm text-gray-500">Comprado el 2 de junio, 2023</p>
     
     <div class="flex justify-between items-center mt-2">
-      <span class="text-green-700 font-bold">$2,800.00</span>
+      <span class="text-green-700 font-bold">$2.00</span>
       <a href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
     </div>
   </div>

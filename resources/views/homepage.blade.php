@@ -21,7 +21,7 @@
     </swiper-container>
 
 
-    <!-- categories titulo -->
+    <!-- categories titulo (min-h-96)-->
     <div class="static">
         <h1 class="text-7xl grid place-items-center font-common my-20 text-red-700">Explora nuestras categorías</h1>
     </div>
