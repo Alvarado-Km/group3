@@ -3,10 +3,9 @@
 
 
         <section>
-                    <h2 class="text-red-600 text-6xl text-center"> Acerca de nosotros </h2>
-                    <!-- <div class="columns-2 absolute " ><div> -->
+                <h2 class="text-red-600 text-6xl text-center"> Acerca de nosotros </h2>
                  <section>
-  <div class="text-center text-justify text-xl mb-16 mx-20 font-common mt-16">
+  <div class="text-center text-justify text-xl mb-4 mx-20 font-common mt-16">
     <p>
       Somos Artesía, y nos dedicamos a preservar y promover el arte artesanal, colaborando directamente con
       talentosos artesanos para ofrecer productos únicos y de alta calidad. Valoramos la sostenibilidad y el
@@ -14,10 +13,10 @@
       hechas a mano que cuentan historias y reflejan dedicación.
     </p>
   </div>
-</section>
-            <!-- <div class="columns-2 absolute " ><div> -->
-                    <p class=" text-red-600 text-left text-3xl font-semibold w-full md:w-1 mx-64 mb-5"> Misión</p>
-                    <p class="text-left text-justify text-xl font-common w-full md:w-1/4 mx-24"> Conservar el arte y la cultura a
+                </section>
+                    <p class="text-center text-red-600 text-left text-3xl font-semibold w-full md:w-1 mx-96 mb-5 mt-32"> Misión</p>
+                    <img src="img/Artesanias.jpg" class=" float-right mr-64 rounded-xl  w-1/4 relative -top-32">
+                    <p class="text-left text-justify text-xl font-common md:w-1/4 mx-64 mt-20 mb-64"> Conservar el arte y la cultura a
                         través de una plataforma digital de los artesanos salvadoreños en las nuevas generaciones.
                     <h2 class="text-red-600 text-3xl font-semibold w-max ml-auto mr-64 mb-5 mt-8"> Visión</h2>
                    <section class="flex justify-end">
