@@ -3,7 +3,7 @@
 
 
         <section>
-                <h2 class="text-red-600 text-6xl text-center"> Acerca de nosotros </h2>
+                <h2 class="font-semibold text-red-600 text-6xl text-center"> Acerca de nosotros </h2>
                  <section>
   <div class="text-center text-justify text-xl mb-4 mx-20 font-common mt-16">
     <p>
@@ -14,49 +14,75 @@
     </p>
   </div>
                 </section>
-                    <p class="text-center text-red-600 text-left text-3xl font-semibold w-full md:w-1 mx-96 mb-5 mt-32"> Misión</p>
-                    <img src="img/Artesanias.jpg" class=" float-right mr-64 rounded-xl  w-1/4 relative -top-32">
-                    <p class="text-left text-justify text-xl font-common md:w-1/4 mx-64 mt-20 mb-64"> Conservar el arte y la cultura a
+                    <p class="text-center text-red-600 text-left text-5xl font-semibold w-full md:w-1 mx-56 mb-full mt-32"> Misión</p>
+                    <img src="img/Julia Birds Nest Plate.jpg" class="shadow-xl float-right mx-12 rounded-xl  w-1/2 relative -top-32">
+                    <p class="text-left text-justify text-xl font-common md:w-1/4 mx-32 mt-24 mb-64"> Conservar el arte y la cultura a
                         través de una plataforma digital de los artesanos salvadoreños en las nuevas generaciones.
-                    <h2 class="text-red-600 text-3xl font-semibold w-max ml-auto mr-64 mb-5 mt-8"> Visión</h2>
+                    <h2 class="text-red-600 text-5xl font-semibold w-max ml-auto mr-[250px] mt-0 mb-0"> Visión</h2>
+                   <img src="img/viejito w flag.jpg" class="shadow-xl mx-12 float-left rounded-xl w-1/2">
                    <section class="flex justify-end">
-                    <p class="text-justify text-xl mx-24 font-common md:w-1/4">
+                    <p class="text-justify text-right text-xl mx-32 font-common w-3/4 mt-52 mb-64">
                     Ser un espacio digital donde la juventud salvadoreña pueda descubrir y valorar la artesanía local, promoviendo el respeto por nuestras raíces culturales y contribuyendo modestamente al desarrollo de nuestras comunidades artesanales en todo el país.  </p>
                     </section>
 
                 </div>
             </div>
         </section>
-
-        <section>
-            <h1 class=" text-red-600 font-title text-5xl grid justify-items-center pt-12 mt-24">Nuestros valores </h1>    
-            <div class=" grid grid-cols-3 font-common text-3xl mt-24 mb-10 bg-white rounded-2xl shadow-lg p-6 text-center w-80 mx-auto">
-                    <p class=" text-justify font-semibold mr-6"> Autenticidad </p>
-                </div>
-            <div class="grid grid-cols-3 font-common text-3xl mt-24 mb-10 bg-white rounded-2xl shadow-lg p-6 text-center w-80 mx-auto">
-                <div class="flex items-center mx-auto space-x-4 my-6 "></div>
-                    <p class=" text-justify font-semibold mr-6">Creatividad </p>
-                </div>
-            <div class="grid grid-cols-3 font-common text-3xl mt-24 mb-10 bg-white rounded-2xl shadow-lg p-6 text-center w-80 mx-auto">
-                <div class="flex items-center mx-auto space-x-4 my-6"></div>
-                    <p class=" text-justify font-semibold mr-6">Compromiso </p>
-                </div>
-
-                <div class="grid grid-cols-3 font-common text-3xl mt-24 mb-10 bg-white rounded-2xl shadow-lg p-6 text-center w-80 mx-auto">
-                 <div class="flex items-center mx-auto space-x-4 my-6"></div>
-                    <p class=" text-justify font-semibold mr-6">Respeto cultural </p>
-                </div>
-            <div class="grid grid-cols-3 font-common text-3xl mt-24 mb-10 bg-white rounded-2xl shadow-lg p-6 text-center w-80 mx-auto">
-                <div class="flex items-center mx-auto space-x-4 my-6"></div>
-                    <p class=" text-justify font-semibold mr-6">
-                        Colaboración </p>
-                </div>
-                <div class="grid grid-cols-3 font-common text-3xl mt-24 mb-10 bg-white rounded-2xl shadow-lg p-6 text-center w-80 mx-auto">
-                    <div class="flex items-center mx-auto space-x-4 my-6"></div>
-                    <p class=" text-justify font-semibold mr-6">
-                        Innovación </p>
-                </div>
-            </div>
-        </section>
+   <section>
+    <h1 class="text-red-600 font-semibold text-5xl grid justify-items-center">Nuestros valores</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-20 px-10">
+        <div class="bg-white rounded-2xl shadow-lg p-6 text-center font-common w-80 mx-auto">
+            <img src="img/valores eliss.jpg" alt="Autenticidad"
+                 class="w-24 h-24 object-cover rounded-full mx-auto mb-4">
+            <h2 class="text-2xl font-bold text-gray-800 mb-2">Autenticidad</h2>
+            <p class="text-justify text-gray-700 text-base leading-relaxed">
+                Promover la genuinidad y originalidad de la artesanía local refuerza la identidad cultural salvadoreña y diferencia los productos de imitaciones o producciones en masa.
+            </p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 text-center font-common w-80 mx-auto">
+            <img src="img/valor eli.jpg" alt="Creatividad"
+                 class="w-24 h-24 object-cover rounded-full mx-auto mb-4">
+            <h2 class="text-2xl font-bold text-gray-800 mb-2">Creatividad</h2>
+            <p class="text-justify text-gray-700 text-base leading-relaxed">
+                Celebrar la originalidad y la creatividad de los artesanos al diseñar y elaborar sus productos enriquece la oferta de la plataforma y estimula la innovación dentro de las comunidades artesanales.
+            </p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 text-center font-common w-80 mx-auto">
+            <img src="img/manos.jpg" alt="Compromiso"
+                 class="w-24 h-24 object-cover rounded-full mx-auto mb-4">
+            <h2 class="text-2xl font-bold text-gray-800 mb-2">Compromiso</h2>
+            <p class="text-justify text-gray-700 text-base leading-relaxed">
+                Estamos dedicados a apoyar a los artesanos y a mantener vivas las tradiciones culturales a través de nuestro proyecto.
+            </p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 text-center font-common w-80 mx-auto">
+            <img src="img/viejito w flag.jpg" alt="Respeto cultural"
+                 class="w-24 h-24 object-cover rounded-full mx-auto mb-4">
+            <h2 class="text-2xl font-bold text-gray-800 mb-2">Respeto cultural</h2>
+            <p class="text-justify text-gray-700 text-base leading-relaxed">
+                Reconocer y valorar las tradiciones y la artesanía local demuestra consideración hacia las comunidades y su herencia cultural, fortaleciendo el tejido social y el orgullo nacional.
+            </p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 text-center font-common w-80 mx-auto">
+            <img src="img/grupo art.jpg" alt="Colaboración"
+                 class="w-24 h-24 object-cover rounded-full mx-auto mb-4">
+            <h2 class="text-2xl font-bold text-gray-800 mb-2">Colaboración</h2>
+            <p class="text-justify text-gray-700 text-base leading-relaxed">
+                Creemos en la colaboración con los artesanos, escuchando sus necesidades y trabajando juntos para mejorar sus condiciones y promover su trabajo.
+            </p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 text-center font-common w-80 mx-auto">
+            <img src="img/valoo eli.jpg" alt="Innovación"
+                 class="w-24 h-24 object-cover rounded-full mx-auto mb-4">
+            <h2 class="text-2xl font-bold text-gray-800 mb-2">Innovación</h2>
+            <p class="text-justify text-gray-700 text-base leading-relaxed">
+                Buscamos constantemente nuevas formas de promover y vender la artesanía salvadoreña, utilizando tecnologías y estrategias innovadoras para alcanzar a un público más amplio.
+            </p>
+        </div>
     </div>
+</section>
+<section>
+<h1 class="mt-24 mb-16 text-red-600 font-semibold text-5xl grid justify-items-center"> Conoce nuestro equipo</h1>
+<img class= w-full src="img/definitive.jpg">
+</section>
 </x-layout>
