@@ -105,3 +105,10 @@ Route::get('/products/index', function () {
 Route::get('/products/Favorite', function () {
     return view('products.Favorite');
 });
+
+
+ Route::get('/favorite', function () {
+        return view('users.favorite', [
+            'user' => Auth::user()->load('products')
+        ]);
+    })->name('favorite');
