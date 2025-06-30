@@ -15,52 +15,45 @@ class CategorySeeder extends Seeder
     {
         $categories = [
             [
-                'name' => 'Joyería',
-                'img' => '/img/categories/joyeria.jpg'
+                'name' => 'Joyería y bisutería',
+                'img' => '/img/categories/joyeria.png'
             ],
             [
-                'name' => 'Textiles',
-                'img' => '/img/categories/ropa.jpeg'
+                'name' => 'Cerámica',
+                'img' => '/img/categories/ceramica.jpg'
+            ],
+            [
+                'name' => 'Vidrio',
+                'img' => '/img/categories/vidrio.webp'
+            ],
+            [
+                'name' => 'Intrumentos',
+                'img' => '/img/categories/instrumentos.jpg'
+            ],
+            [
+                'name' => 'Textiles y bordados',
+                'img' => '/img/categories/textiles.jpg'
+            ],
+            [
+                'name' => 'Decoración y hogar',
+                'img' => '/img/categories/casa.png'
             ],
             [
                 'name' => 'Velas',
-                'img' => '/img/categories/velas.png'
+                'img' => '/img/categories/velas.jpg'
+            ],
+
+            [
+                'name' => 'Bolsos y carteras',
+                'img' => '/img/categories/bolsos.jpg'
             ],
             [
                 'name' => 'Muebles',
                 'img' => '/img/categories/muebles.jpg'
             ],
-            //[
-              //  'name' => 'Alfarería',
-              //  'img' => ''
-            //],
             [
-                'name' => 'Cerámica',
-                'img' => '/img/categories/ceramica.jpeg'
-            ],
-           // [
-             //   'name' => 'Textiles',
-              //  'img' => ''
-            //],
-           // [
-           //     'name' => 'Madera',
-           //     'img' => ''
-           // ],
-            [
-                'name' => 'Instrumentos',
-                'img' => '/img/categories/instrumentos.jpg'
-            ],
-            //[
-            //    'name' => 'Arte con metal',
-            //    'img' => ''
-            //],
-            [
-                'name' => 'Vidrio',
-                'img' => '/img/categories/vidrios.jpg'
-            ],
-            [
-                'name' => 'Dulces típicos',
-                'img' => '/img/categories/dulces.jpg'
+                'name' => 'Juguetes',
+                'img' => '/img/categories/juguetes.webp'
             ],
         ];
 

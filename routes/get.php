@@ -35,6 +35,7 @@ Route::get('category/{category}', function (Category $category) {
     ]);
 })->name('categories');
 
+
 Route::get('/handicrafts/{product}', function(Product $product) {
     return view('products.product', [
         'producto' => $product->load('user', 'reviews', 'reviews.user')
