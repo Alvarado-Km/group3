@@ -17,27 +17,32 @@
                 </p>
             </div>
         </section>
-        <p class="text-center text-red-600 text-left text-5xl font-semibold w-full md:w-1 mx-56 mb-full mt-32"> Misión
-        </p>
-        <img src="img/Julia Birds Nest Plate.jpg"
-            class="shadow-xl float-right mx-12 rounded-xl  w-1/2 relative -top-32 ">
-        <p class="text-left text-justify text-xl font-common md:w-1/4 mx-32 mt-24 mb-64"> Conservar el arte y la cultura
-            a
-            través de una plataforma digital de los artesanos salvadoreños en las nuevas generaciones. </p>
-            
-        <h2 class="text-red-600 text-5xl font-semibold w-max ml-auto mr-[250px]  mt-0 mb-0 "> Visión</h2>
-
-        <section class="flex justify-end">
-            <img src="img/viejito w flag.jpg" class="shadow-xl mx-12 float-left rounded-xl w-1/2">  
-            <p class="text-justify text-right text-xl mx-32 font-common w-3/4 mt-52 mb-64">
-                Ser un espacio digital donde la juventud salvadoreña pueda descubrir y valorar la artesanía local,
-                promoviendo el respeto por nuestras raíces culturales y contribuyendo modestamente al desarrollo de
-                nuestras comunidades artesanales en todo el país.
+        <div>
+            <p class="text-center text-red-600 text-left text-5xl font-semibold w-full md:w-1 mx-56 mb-full mt-32">
+                Misión
             </p>
-        </section>
+            <img src="img/Julia Birds Nest Plate.jpg"
+                class="shadow-xl float-right mx-12 rounded-xl  w-1/2 relative -top-32 ">
+            <p class="text-left text-justify text-xl font-common md:w-1/4 mx-32 mt-24 mb-64"> Conservar el arte y la
+                cultura
+                a
+                través de una plataforma digital de los artesanos salvadoreños en las nuevas generaciones. </p>
+        </div>
 
-       
-        
+        <div class="flex mx-12 w-full">
+            <img src="img/viejito w flag.jpg" class="shadow-xl rounded-xl w-1/2">
+            <div class="mx-32 mt-32">
+                <h2 class="text-red-600 text-5xl font-semibold text-center "> Visión</h2>
+                <p class="text-justify text-right text-xl font-common mt-20 ">
+                    Ser un espacio digital donde la juventud salvadoreña pueda descubrir y valorar la artesanía local,
+                    promoviendo el respeto por nuestras raíces culturales y contribuyendo modestamente al desarrollo de
+                    nuestras comunidades artesanales en todo el país.
+                </p>
+            </div>
+        </div>
+
+
+
     </section>
     <section>
         <h1 class="text-red-600 font-semibold mt-12 text-5xl grid justify-items-center">Nuestros valores</h1>
