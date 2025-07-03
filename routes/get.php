@@ -114,3 +114,7 @@ Route::get('/products/Favorite', function () {
             'user' => Auth::user()->load('products')
         ]);
     })->name('favorite');
+
+    Route::get('/calendar', function(){
+    return view('calendar');
+});
