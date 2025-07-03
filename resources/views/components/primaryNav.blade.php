@@ -3,6 +3,9 @@
         <a href="{{ route('welcome') }}">
             <h1 class="text-5xl font-bold text-red-700 px-20 grid place-items-right font-title">Artesía</h1>
         </a>
+
+       
+
         <a href="{{ route('aboutUs') }}">
             <img class="absolute bottom-0 top-0 left-2 h-16 w-16" src="img/favicon-32x32.png" height="24px"
                 viewBox="0 -960 960 960" width="23px" fill="#5f6368">

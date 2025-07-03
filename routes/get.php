@@ -83,7 +83,9 @@ Route::get('/PruebaKami', function () {
     return view('PruebaKami');
 });
 
-
+Route::get('/map', function () {
+    return view(view: 'map');
+});
 
 
 
