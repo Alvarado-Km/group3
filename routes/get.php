@@ -115,15 +115,19 @@ Route::get('/products/Favorite', function () {
         ]);
     })->name('favorite');
 
-<<<<<<< HEAD
     Route::get('/Producto', function () {
     return view(view: 'users.Producto');
-=======
+    });
+
+  Route::get('/Pedido', function () {
+    return view('users.pedido');
+    });
+
+
     Route::get('/calendar', function(){
     return view('calendar');
-});
+    });
 
 Route::get('/seguimiento', function () {
     return view('seguimiento');
->>>>>>> 12179ce4a28c22398f892906a51571d27bd4ac8f
 });
