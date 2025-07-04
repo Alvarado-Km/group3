@@ -102,4 +102,5 @@ Route::get('/shopping', function () {
 
 
 
+
 Route::post('/logout', [UserController::class, 'logout']);
