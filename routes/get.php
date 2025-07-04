@@ -35,6 +35,7 @@ Route::get('category/{category}', function (Category $category) {
     ]);
 })->name('categories');
 
+
 Route::get('/handicrafts/{product}', function(Product $product) {
     return view('products.product', [
         'producto' => $product->load('user', 'reviews', 'reviews.user')
@@ -82,7 +83,9 @@ Route::get('/PruebaKami', function () {
     return view('PruebaKami');
 });
 
-
+Route::get('/map', function () {
+    return view(view: 'map');
+});
 
 
 
@@ -111,3 +114,11 @@ Route::get('/products/Favorite', function () {
             'user' => Auth::user()->load('products')
         ]);
     })->name('favorite');
+
+    Route::get('/calendar', function(){
+    return view('calendar');
+});
+
+Route::get('/seguimiento', function () {
+    return view('seguimiento');
+});
