@@ -111,3 +111,7 @@ Route::get('/products/Favorite', function () {
             'user' => Auth::user()->load('products')
         ]);
     })->name('favorite');
+
+  Route::get('/Pedido', function () {
+    return view('users.pedido');
+});
