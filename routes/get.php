@@ -123,3 +123,7 @@ Route::get('/products/Favorite', function () {
     Route::get('/calendar', function(){
     return view('calendar');
 });
+
+Route::get('/seguimiento', function () {
+    return view('seguimiento');
+});
