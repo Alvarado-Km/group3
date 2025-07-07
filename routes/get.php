@@ -131,3 +131,25 @@ Route::get('/products/Favorite', function () {
 Route::get('/seguimiento', function () {
     return view('seguimiento');
 });
+
+ Route::get('/products/chat', function () {
+    return view('products.chat');
+});
+
+  Route::get('/chat', function () {
+        return view('users.chat', [
+            'user' => Auth::user()->load('products')
+        ]);
+    })->name('chat');
+
+
+    Route::get('/products/chat', function () {
+    return view('products.chat');
+});
+
+  Route::get('/chat', function () {
+        return view('users.chat', [
+            'user' => Auth::user()->load('products')
+        ]);
+    })->name('chat');
+
