@@ -12,7 +12,7 @@
                 <img class="w-20 h-20 rounded-full  " src="/img/xio.jpg" alt="">
                 <div class="font-bold ml-5 text-black ">
                     <div>Lindsay valle</div>
-                    <div class="text-sm  text-gray-500 text-gray-400">Artesana (10 años)</div>
+                    <div class="text-sm  text-gray-500 text-gray-400">Artesana (10 años de experiencia)</div>
                 </div>
             </div>
 
