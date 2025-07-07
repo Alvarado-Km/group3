@@ -5,7 +5,7 @@
     <section>
         <h2 class="font-semibold text-red-600 text-6xl text-center"> Acerca de nosotros </h2>
         <section>
-            <div class="text-center text-justify text-xl mb-4 mx-20 font-common mt-16">
+            <div class="text-center text-justify text-xl mb-4 mx-16 font-common mt-16">
                 <p>
                     Somos Artesía, y nos dedicamos a preservar y promover el arte artesanal, colaborando directamente
                     con
@@ -29,7 +29,7 @@
                 través de una plataforma digital de los artesanos salvadoreños en las nuevas generaciones. </p>
         </div>
 
-        <div class="flex mx-12 w-full">
+        <div class="flex mx-10 w-full">
             <img src="img/viejito w flag.jpg" class="shadow-xl rounded-xl w-1/2">
             <div class="mx-32 mt-32">
                 <h2 class="text-red-600 text-5xl font-semibold text-center "> Visión</h2>
