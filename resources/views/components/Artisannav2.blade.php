@@ -5,7 +5,7 @@
 
     <!-- categorias -->
     <div class="static">
-        <a href="/products/categories  ">
+        <a href="/homepage ">
             <h1 class="absolute pr-60  top-4 right-32 font-title mr-32 font-bold text-2xl h-16 w-10  "
                 viewBox="0 -960 960 960 "> Categorías </h1>
         </a>
@@ -16,7 +16,7 @@
 
     <!--Sobre nosotros-->
 
-    <a href="/products/profile  ">
+    <a href="/AboutUs  ">
         <h1 class="absolute pr-16 top-4 right-20 mr-0 pl-4 ml-12 font-title font-bold text-2xl  "
             viewBox="0 -960 960 960 "> Acerca de nosotros </h1>
 
