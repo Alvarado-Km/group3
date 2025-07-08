@@ -2,7 +2,7 @@
    <x-allnav/>
 
        <section class="max-w-6xl mx-auto  gap-8 mt-5 p-6 rounded flex flex-col items-center bg-gray-100  " >
-    
+
 <!-- sing out -->
    <div class="">
         <form method="post" action="{{ route('logout') }}">
@@ -12,7 +12,7 @@
               </button>
         </form>
     </div>
-    
+
 <!--  user-icon -->
     <div class="flex justify-center ">
         <img class="w-64 h-64 rounded-full" src="/img/user.png" alt="Rounded avatar">
@@ -27,9 +27,9 @@
         <svg class=" fill-black" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path  /></svg>
         <h1 class="font-common mr-5">{{ $user->email }}</h1>
     </div>
-</section>     
+</section>
 
-     
+
 <section class="max-w-3xl mx-auto grid grid-cols-2 gap-8 mt-5 mb-20 ">
   <!-- Tarjeta Compras -->
   <div class="flex items-center bg-white p-8 rounded-xl shadow hover:bg-gray-200 transition ">
@@ -87,14 +87,14 @@
   <!-- Tarjeta 1 -->
   <div class="bg-white rounded-lg shadow p-4 relative">
     <span class="absolute top-2 right-2 text-xs text-gray-400 font-semibold">Entregado</span>
-    
+
     <div class="h-32 w-full bg-gray-200 rounded flex items-center justify-center overflow-hidden mb-4">
       <img src="/img/9.jpg" class="h-full w-full object-cover">
     </div>
-    
+
     <h3 class="font-semibold text-lg">Jarrón de Cerámica Artesanal</h3>
     <p class="text-sm text-gray-500">Comprado el 15 de mayo, 202</p>
-    
+
     <div class="flex justify-between items-center mt-2">
       <span class="text-green-700 font-bold">$120.00</span>
       <a href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
@@ -104,14 +104,14 @@
   <!-- Tarjeta 2 -->
   <div class="bg-white rounded-lg shadow p-4 relative">
     <span class="absolute top-2 right-2 bg-yellow-400 text-white text-xs font-bold px-2 py-0.5 rounded">En camino</span>
-    
+
     <div class="bg-gray-200 h-32 flex items-center justify-center rounded mb-4">
       <img src="/img/8.jpg" class="h-full w-full object-cover">
     </div>
-    
+
     <h3 class="font-semibold text-lg">Cartera de manta</h3>
     <p class="text-sm text-gray-500">Comprado el 2 de junio, 2023</p>
-    
+
     <div class="flex justify-between items-center mt-2">
       <span class="text-green-700 font-bold">$10.00</span>
       <a  href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
@@ -123,14 +123,14 @@
   <!-- Tarjeta  3-->
   <div class="bg-white rounded-lg shadow p-4 relative">
     <span class="absolute top-2 right-2 text-xs text-gray-400 font-semibold">Entregado</span>
-    
+
     <div class="bg-gray-200 h-32 flex items-center justify-center rounded mb-4">
       <img src="/img/5.jpg" class="h-full w-full object-cover">
     </div>
-    
+
     <h3 class="font-semibold text-lg">Jarrón de Cerámica Artesanal</h3>
     <p class="text-sm text-gray-500">Comprado el 15 de mayo, 2023</p>
-    
+
     <div class="flex justify-between items-center mt-2">
       <span class="text-green-700 font-bold">$35.00</span>
       <a href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
@@ -140,14 +140,14 @@
   <!-- Tarjeta 4-->
   <div class="bg-white rounded-lg shadow p-4 relative">
     <span class="absolute top-2 right-2 bg-yellow-400 text-white text-xs font-bold px-2 py-0.5 rounded">En camino</span>
-    
+
     <div class="bg-gray-200 h-32 flex items-center justify-center rounded mb-4">
        <img src="/img/c3.jpeg" class="h-full w-full object-cover">
     </div>
-    
+
     <h3 class="font-semibold text-lg">Tapete Tejido a Mano</h3>
     <p class="text-sm text-gray-500">Comprado el 2 de junio, 2023</p>
-    
+
     <div class="flex justify-between items-center mt-2">
       <span class="text-green-700 font-bold">$20.00</span>
       <a href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
@@ -159,14 +159,14 @@
   <!-- Tarjeta 5 -->
   <div class="bg-white rounded-lg shadow p-4 relative">
     <span class="absolute top-2 right-2 text-xs text-gray-400 font-semibold">Entregado</span>
-    
+
     <div class="bg-gray-200 h-32 flex items-center justify-center rounded mb-4">
       <img src="/img/c4.jpeg" class="h-full w-full object-cover">
     </div>
-    
+
     <h3 class="font-semibold text-lg">Jarrón de Cerámica Artesanal</h3>
     <p class="text-sm text-gray-500">Comprado el 15 de mayo, 2023</p>
-    
+
     <div class="flex justify-between items-center mt-2">
       <span class="text-green-700 font-bold">$150</span>
       <a href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
@@ -176,14 +176,14 @@
   <!-- Tarjeta 6 -->
   <div class="bg-white rounded-lg shadow p-4 relative">
     <span class="absolute top-2 right-2 bg-yellow-400 text-white text-xs font-bold px-2 py-0.5 rounded">En camino</span>
-    
+
     <div class="bg-gray-200 h-32 flex items-center justify-center rounded mb-4">
       <img src="/img/6.jpg" class="h-full w-full object-cover">
     </div>
-    
+
     <h3 class="font-semibold text-lg">Tapete Tejido a Mano</h3>
     <p class="text-sm text-gray-500">Comprado el 2 de junio, 2023</p>
-    
+
     <div class="flex justify-between items-center mt-2">
       <span class="text-green-700 font-bold">$2.00</span>
       <a href="#" class="text-red-400 hover:underline text-sm">Ver detalles</a>
