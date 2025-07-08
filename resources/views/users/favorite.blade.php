@@ -2,7 +2,7 @@
    <x-allnav/>
 
           <section class="max-w-6xl mx-auto  gap-8 mt-5 p-6 rounded flex flex-col items-center bg-gray-100  " >
-    
+
 <!-- sing out -->
    <div class="w-full flex">
     <div class="ml-auto mb-2">
@@ -14,7 +14,7 @@
       </form>
     </div>
   </div>
-    
+
 <!--  user-icon -->
     <div class="flex justify-center ">
         <img class="w-64 h-64 rounded-full" src="/img/user.png" alt="Rounded avatar">
@@ -29,9 +29,9 @@
         <svg class=" fill-black" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path  /></svg>
         <h1 class="font-common mr-5">{{ $user->email }}</h1>
     </div>
-</section> 
+</section>
 
-     
+
 <section class="max-w-3xl mx-auto grid grid-cols-2 gap-8 mt-5 mb-20 ">
   <!-- Tarjeta Compras -->
   <div class="flex items-center bg-white p-8 rounded-xl shadow hover:bg-gray-200 transition ">
@@ -99,7 +99,7 @@
     <h2 class="font-semibold text-gray-800 mb-1">Jarrón de Cerámica Artesanal</h2>
     <p class="text-gray-600 text-sm mb-3">Hermoso jarrón hecho a mano con técnicas tradicionales de cerámica.</p>
 
-    
+
     <div class="flex justify-between items-center mt-auto">
       <div class="text-sm text-red-500">
         <span class="text-gray-500">(24)</span>
@@ -121,7 +121,7 @@
 <div class="bg-gray-200 h-32 flex items-center justify-center rounded mb-4">
       <img src="/img/8.jpg" class="h-full w-full object-cover">
     </div>
-   
+
     <div class="flex justify-between items-center text-sm mb-2">
       <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded-full">cartera de manta</span>
       <span class="text-red-600 font-bold">$10.00</span>

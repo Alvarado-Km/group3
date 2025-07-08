@@ -1,4 +1,5 @@
-<x-layout>
+<div>
+    <x-layout>
     <x-allnav />
 
     <div class="grid grid-cols-6 h-10  mx-5 ">
@@ -11,7 +12,7 @@
             </div>
             <!--barra de busqueda-->
             <div class="px-4 mt-5 mb-4 ">
-      <input type="text" placeholder="Buscar..." class="w-full px-3 py-2 rounded bg-white text-white bg-gray-500 focus:outline-none">
+      <input type="text" placeholder="Buscar..." class="w-full px-3 py-2 rounded bg-white text-black bg-gray-500 focus:outline-none">
     </div>
 <!--chats-->
 <div class="flex-1 bg-white text-black">
@@ -21,12 +22,14 @@
         <p class="text-sm text-gray-600 truncate">¡Hola! Me gustaría saber si tiene disp..</p>
       </div>
     </a>
+
+    <a href="/chat2">
       <div class="border-b p-4 hover:bg-gray-100 cursor-pointer">
         <p class="font-semibold">Kamila Cipriano</p>
         <p class="text-sm text-gray-600 truncate">¡Hola! ¿Tiene envíos a Santa Ana?</p>
       </div>
     </div>
-
+</a>
         </div>
 
 
@@ -37,7 +40,7 @@
                  <div class=" flex items-center">
                 <img class="w-10 h-10 rounded-full  " src="/img/xio.jpg" alt="">
                 <div class="font-bold ml-5 text-white ">
-                    <div>Lindsay valle</div>
+                    <div>Andre Pérez</div>
                     <div class="text-sm  text-gray-500 text-white"> En linea</div>
                 </div>
             </div>
@@ -45,14 +48,13 @@
 <!--mensajes-->
 <div class="bg-gray-200">
 <div class="flex items-start gap-2.5 mt-20 ">
-   <img class="w-8 h-8 rounded-full ml-5" src="/img/señora.jpg" >
+   <img class="w-8 h-8 rounded-full ml-5" src="/img/Gringa Sonia.jpg" >
    <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl bg-gray-600 ">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Andrea Peréz</span>
-         <span class="text-sm font-normal text-gray-500 dark:text-gray-400">11:46</span>
+         <span class="text-sm font-normal text-gray-500 dark:text-gray-400">1:00</span>
       </div>
-      <p class="text-sm font-normal py-2.5 text-gray-500 text-white">hola me interesa un jarrón de barrio, quiero el saber precio unitario o por mayoreo.
-        ¿cuenta con servicio a dominio?
+      <p class="text-sm font-normal py-2.5 text-gray-500 text-white">hola,¿Tiene envíos a santa Ana?
       </p>
    </div>
 
@@ -64,10 +66,9 @@
    <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl bg-gray-600 ">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Lindsay Valle</span>
-         <span class="text-sm font-normal text-gray-500 dark:text-gray-400">12:00</span>
+         <span class="text-sm font-normal text-gray-500 dark:text-gray-400">2:00</span>
       </div>
-      <p class="text-sm font-normal py-2.5 text-gray-500 text-white"> ¡Hola! claro, el precio unitario del jarrón es de $25.00 y el precio por mayoreo es de $15.00,
-        si, contamos con sevicio adomicilio.¿Adonde quisiera el envío?
+      <p class="text-sm font-normal py-2.5 text-gray-500 text-white"> ¡Hola! claro, tenemos envíos a todo el país.
       </p>
    </div>
 
@@ -90,3 +91,5 @@
 
               </div>
 </x-layout>
+
+</div>
