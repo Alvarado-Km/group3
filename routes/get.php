@@ -153,3 +153,7 @@ Route::get('/seguimiento', function () {
             'user' => Auth::user()->load('products')
         ]);
     })->name('chat2');
+
+    Route::get('/carrito', function () {
+        return view('products.carrito');
+    });
