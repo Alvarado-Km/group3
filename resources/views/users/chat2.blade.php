@@ -28,8 +28,9 @@
         <p class="font-semibold">Kamila Cipriano</p>
         <p class="text-sm text-gray-600 truncate">¡Hola! ¿Tiene envíos a Santa Ana?</p>
       </div>
-    </div>
 </a>
+    </div>
+
         </div>
 
 
@@ -38,9 +39,9 @@
 
             <div class="col-span-4 grid grid Dark: bg-green-900 rounded  w-65 h-20 ">
                  <div class=" flex items-center">
-                <img class="w-10 h-10 rounded-full  " src="/img/xio.jpg" alt="">
+                <img class="w-10 h-10 rounded-full  " src="/img/Gringa Sonia.jpg" alt="">
                 <div class="font-bold ml-5 text-white ">
-                    <div>Andre Pérez</div>
+                    <div>Kamilia Cipriano</div>
                     <div class="text-sm  text-gray-500 text-white"> En linea</div>
                 </div>
             </div>
@@ -51,7 +52,7 @@
    <img class="w-8 h-8 rounded-full ml-5" src="/img/Gringa Sonia.jpg" >
    <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl bg-gray-600 ">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
-         <span class="text-sm font-semibold text-gray-900 dark:text-white">Andrea Peréz</span>
+         <span class="text-sm font-semibold text-gray-900 dark:text-white">Kamila Cipriano</span>
          <span class="text-sm font-normal text-gray-500 dark:text-gray-400">1:00</span>
       </div>
       <p class="text-sm font-normal py-2.5 text-gray-500 text-white">hola,¿Tiene envíos a santa Ana?

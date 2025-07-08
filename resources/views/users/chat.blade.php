@@ -20,11 +20,13 @@
         <p class="font-semibold">Andrea Pérez</p>
         <p class="text-sm text-gray-600 truncate">¡Hola! Me gustaría saber si tiene disp..</p>
       </div>
-    </a>
+    </a >
+<a href="/chat2">
       <div class="border-b p-4 hover:bg-gray-100 cursor-pointer">
         <p class="font-semibold">Kamila Cipriano</p>
         <p class="text-sm text-gray-600 truncate">¡Hola! ¿Tiene envíos a Santa Ana?</p>
       </div>
+</a>
     </div>
 
         </div>
@@ -35,9 +37,9 @@
 
             <div class="col-span-4 grid grid Dark: bg-green-900 rounded  w-65 h-20 ">
                  <div class=" flex items-center">
-                <img class="w-10 h-10 rounded-full  " src="/img/xio.jpg" alt="">
+                <img class="w-10 h-10 rounded-full  " src="/img/señora.jpg" alt="">
                 <div class="font-bold ml-5 text-white ">
-                    <div>Lindsay valle</div>
+                    <div>Andrea Perez</div>
                     <div class="text-sm  text-gray-500 text-white"> En linea</div>
                 </div>
             </div>

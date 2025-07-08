@@ -148,11 +148,12 @@ Route::get('/seguimiento', function () {
     return view('products.chat2');
 });
 
-  Route::get('/chat', function () {
-        return view('user.chat2', [
+  Route::get('/chat2', function () {
+        return view('users.chat2', [
             'user' => Auth::user()->load('products')
         ]);
     })->name('chat2');
+    
 
     Route::get('/carrito', function () {
         return view('products.carrito');
