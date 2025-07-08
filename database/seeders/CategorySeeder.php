@@ -27,7 +27,7 @@ class CategorySeeder extends Seeder
                 'img' => '/img/categories/vidrio.webp'
             ],
             [
-                'name' => 'Intrumentos',
+                'name' => 'Instrumentos',
                 'img' => '/img/categories/instrumentos.jpg'
             ],
             [

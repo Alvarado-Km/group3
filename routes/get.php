@@ -42,6 +42,10 @@ Route::get('/handicrafts/{product}', function(Product $product) {
     ]);
 })->name('handicrafts');
 
+   Route::get('/producto', function () {
+    return view(view: 'users.Producto', );
+    });
+
 Route::middleware('auth')->group( function () {
     Route::get('/profile', function () {
         return view('users.profile', [
@@ -115,9 +119,6 @@ Route::get('/products/Favorite', function () {
         ]);
     })->name('favorite');
 
-    Route::get('/Producto', function () {
-    return view(view: 'users.Producto');
-    });
 
   Route::get('/Pedido', function () {
     return view('users.pedido');
@@ -131,3 +132,28 @@ Route::get('/products/Favorite', function () {
 Route::get('/seguimiento', function () {
     return view('seguimiento');
 });
+
+
+    Route::get('/products/chat', function () {
+    return view('products.chat');
+});
+
+  Route::get('/chat', function () {
+        return view('users.chat', [
+            'user' => Auth::user()->load('products')
+        ]);
+    })->name('chat');
+
+ Route::get('/products/chat2', function () {
+    return view('products.chat2');
+});
+
+  Route::get('/chat', function () {
+        return view('user.chat2', [
+            'user' => Auth::user()->load('products')
+        ]);
+    })->name('chat2');
+
+    Route::get('/carrito', function () {
+        return view('products.carrito');
+    });

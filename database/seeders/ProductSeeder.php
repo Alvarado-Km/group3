@@ -62,7 +62,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Tapíz hecho a mano con lana de alpaca.',
                 'price' => 80.00,
                 'stock_quantity' => 3,
-                'category_id' => Category::where('name', 'Textiles')->first()->id,
+                'category_id' => Category::where('name', 'Textiles y bordados')->first()->id,
                 'story' => 'Tejido a mano en los Andes, este tapiz representa los paisajes majestuosos de montañas y valles.'
             ],
             [
@@ -70,7 +70,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Canasta tejida a mano ideal para decoraciones.',
                 'price' => 25.00,
                 'stock_quantity' => 15,
-                'category_id' =>  Category::where('name', 'Textiles')->first()->id,
+                'category_id' =>  Category::where('name', 'Textiles y bordados')->first()->id,
                 'story' => 'Tejida con fibras de mimbre recogidas a mano, esta canasta combina utilidad con una belleza natural.'
             ],
             [
@@ -78,7 +78,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Collar hecho a mano con cuencas de vidrio y piedras naturales.',
                 'price' => 20.00,
                 'stock_quantity' => 25,
-                'category_id' => Category::where('name', 'Joyería')->first()->id,
+                'category_id' => Category::where('name', 'Joyería y bisutería')->first()->id,
                 'story' => 'Cada cuenca de este collar ha sido seleccionada meticulosamente por su brillo y belleza.'
             ],
             [
@@ -94,7 +94,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Bolso hecho a mano con tejidos tradicionales.',
                 'price' => 40.00,
                 'stock_quantity' => 12,
-                'category_id' => Category::where('name', 'Textiles')->first()->id,
+                'category_id' => Category::where('name', 'Textiles y bordados')->first()->id,
                 'story' => 'Tejido con hilos de tradición, este bolso refleja las manos de artesanos que han perfeccionado su arte.'
             ],
             [
@@ -102,7 +102,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Alfombra tejida a mano con lana natural.',
                 'price' => 150.00,
                 'stock_quantity' => 4,
-                'category_id' => Category::where('name', 'Textiles')->first()->id,
+                'category_id' => Category::where('name', 'Textiles y bordados')->first()->id,
                 'story' => 'Esta alfombra de lana natural trae la calidez de los pastos alpinos directamente a tu hogar.'
             ],
             [
@@ -126,7 +126,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Máscara pintada a mano con detalles únicos.',
                 'price' => 55.00,
                 'stock_quantity' => 9,
-                'category_id' => Category::where('name', 'Joyería')->first()->id,
+                'category_id' => Category::where('name', 'Joyería y bisutería')->first()->id,
                 'story' => 'Cada máscara es única, pintada a mano para capturar la esencia vibrante de los festivales tradicionales.'
             ],
             [
@@ -134,7 +134,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Sombrero tejido a mano con paja natural.',
                 'price' => 15.00,
                 'stock_quantity' => 20,
-                'category_id' => Category::where('name', 'Textiles')->first()->id,
+                'category_id' => Category::where('name', 'Textiles y bordados')->first()->id,
                 'story' => 'Este sombrero de paja, tejido a mano, te protege del sol y añade un toque de estilo rústico.'
             ],
             [
@@ -142,7 +142,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Cartera artesanal hecha de cuero genuino.',
                 'price' => 70.00,
                 'stock_quantity' => 5,
-                'category_id' => Category::where('name', 'Textiles')->first()->id,
+                'category_id' => Category::where('name', 'Textiles y bordados')->first()->id,
                 'story' => 'Hecha a mano con cuero genuino, esta cartera ofrece durabilidad y un diseño elegante.'
             ],
             [
@@ -194,33 +194,6 @@ class ProductSeeder extends Seeder
                 'story' => 'Perfecta para ahuyentar insectos y perfumar el ambiente con un aroma fresco y revitalizante.'
             ],
             [
-                'name' => 'Cocada',
-                'description' => 'Un dulce tradicional hecho a base de coco rallado y azúcar.',
-                'price' => 1.00,
-                'stock_quantity' => 12,
-                'category_id' => Category::where('name', 'Dulces típicos')->first()->id,
-                'story' => 'Este dulce ha sido preparado durante generaciones en las costas, donde el coco es un ingrediente básico en la cocina tradicional.',
-                'user_id' => $this->users()->random(),
-            ],
-            [
-                'name' => 'Maní salado',
-                'description' => 'Es un snack elaborado con maní con un toque de sal.',
-                'price' => 1.00,
-                'stock_quantity' => 6,
-                'category_id' => Category::where('name', 'Dulces típicos')->first()->id,
-                'story' => 'El maní salado es un refrigerio popular en ferias y mercados locales, ideal para disfrutar entre comidas.',
-                'user_id' => $this->users()->random(),
-            ],
-            [
-                'name' => 'Dulce de tamarindo',
-                'description' => 'Una golosina elaborada a partir de la pulpa del tamarindo, mezclada con azúcar.',
-                'price' => 1.00,
-                'stock_quantity' => 20,
-                'category_id' => Category::where('name', 'Dulces típicos')->first()->id,
-                'story' => 'Este dulce ácido y dulce a la vez es tradicionalmente ofrecido durante festividades en las regiones tropicales, donde abunda el tamarindo.',
-                'user_id' => $this->users()->random(),
-            ],
-            [
                 'name' => 'Ventana colorida',
                 'description' => 'Una ventana hecha a mano, a menudo con marcos de madera o metal y decorada con vidrios o cristales de colores.',
                 'price' => 50.00,
@@ -252,7 +225,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Joyas hechas a mano utilizando hilos, a menudo de materiales como algodón.',
                 'price' => 10.00,
                 'stock_quantity' => 20,
-                'category_id' => Category::where('name', 'Joyería')->first()->id,
+                'category_id' => Category::where('name', 'Joyería y bisutería')->first()->id,
                 'story' => 'Estos aretes combinan técnicas tradicionales de tejido con un diseño moderno, inspirados en la cultura andina.',
                 'user_id' => $this->users()->random(),
             ],
@@ -270,7 +243,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Pulsera hecha a mano con telas de colores vibrantes.',
                 'price' => 10.00,
                 'stock_quantity' => 20,
-                'category_id' => Category::where('name', 'Joyería')->first()->id,
+                'category_id' => Category::where('name', 'Joyería y bisutería')->first()->id,
                 'story' => 'Esta pulsera es creada utilizando técnicas ancestrales de tejido, llevando consigo la historia de las culturas textiles locales.',
                 'user_id' => $this->users()->random(),
             ],
@@ -279,7 +252,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Collar hecho a mano utilizando piedras naturales seleccionadas cuidadosamente.',
                 'price' => 10.00,
                 'stock_quantity' => 20,
-                'category_id' => Category::where('name', 'Joyería')->first()->id,
+                'category_id' => Category::where('name', 'Joyería y bisutería')->first()->id,
                 'story' => 'Cada piedra de este collar cuenta una historia, extraídas de las montañas y seleccionadas por su belleza natural.',
                 'user_id' => $this->users()->random(),
             ]

@@ -21,7 +21,7 @@
     </swiper-container>
 
 
-    <!-- categories titulo (min-h-96)-->
+    <!-- categories titulo-->
     <div class="static">
         <h1 class="text-7xl grid place-items-center font-common my-20 text-red-700">Explora nuestras categorías</h1>
     </div>
@@ -30,7 +30,6 @@
     <!-- categories inicio -->
 
     <div class="grid grid-cols-5">
-       
     @foreach ($categories as $category)
     <div class=" gap-y-10 mx-4 mb-16 ml-11">
         <div class="max-w-sm bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-800 dark:border-gray-700">
@@ -43,12 +42,11 @@
         </div>
     </div>
     @endforeach
-        </div>
+    </div>
 
+    <!-- categories final-->
 
-    <!-- categories final
-
-
+    <!-- Ignore
     </div>
     @foreach ($categories as $category)
     <div class=" gap-y-10 mx-4 mb-16 ml-11">
