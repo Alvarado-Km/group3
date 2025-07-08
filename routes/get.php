@@ -42,6 +42,10 @@ Route::get('/handicrafts/{product}', function(Product $product) {
     ]);
 })->name('handicrafts');
 
+   Route::get('/producto', function () {
+    return view(view: 'users.Producto', );
+    });
+
 Route::middleware('auth')->group( function () {
     Route::get('/profile', function () {
         return view('users.profile', [
@@ -115,9 +119,6 @@ Route::get('/products/Favorite', function () {
         ]);
     })->name('favorite');
 
-    Route::get('/Producto', function () {
-    return view(view: 'users.Producto');
-    });
 
   Route::get('/Pedido', function () {
     return view('users.pedido');
