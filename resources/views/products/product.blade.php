@@ -15,7 +15,7 @@
         </div>
 
         <div>
-            <h1 class="font-title text-5xl mt-5 mb-5 ">{{ $producto->name }}</h1>
+            <h1 class="font-title text-5xl mt-5 mb-5 text-red-600">{{ $producto->name }}</h1>
             <div class="mt-5 flex">
                 <a href="/products/ProfileArtisan" class="flex">
                     <img  class="w-10 h-10 rounded-full mr-5" src="/img/{{ rand(3, 10) }}.jpg" alt="Rounded avatar">
@@ -51,12 +51,12 @@
 
     <div class="grid grid-cols-2 gap-2 my-10 mx-12">
         <div class="mt-2 mr-10">
-            <h1 class="font-title text-3xl mb-5">Reseñas</h1>
+            <h1 class="font-title text-3xl mb-8">Reseñas</h1>
             <div class="border border-gray-200 rounded ml-10 bg-gray-200 py-3 px-5">
                 <h1 class="font-common mt-2 text-2xl">Escribir opiniones sobre este producto</h1>
                 <h1>Comparte tu opinión con otros clientes</h1>
                 <div class="flex mt-24 mb-2">
-                    <img class="w-10 h-10 rounded-full" src="/img/{{ rand(3, 10) }}.jpg" alt="Rounded avatar">
+                    <img class="w-10 h-10 rounded-full rounded-md" src="/img/{{ rand(3, 10) }}.jpg" alt="Rounded avatar">
                     <form method="POST" action="{{ route('create.review') }}" class="flex">
                         @csrf
                         <input
