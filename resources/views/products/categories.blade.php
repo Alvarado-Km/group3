@@ -19,7 +19,7 @@
         </form>
 
         <!--Titulo de las categorias-->
-        <h1 class="text-7xl grid place-items-center font-common my-20 text-red-700">{{ $category->name}}</h1>
+        <h1 class="text-7xl grid place-items-center font-common my-10 text-red-700">{{ $category->name}}</h1>
         <!--Titulo de las categorias-->
 
 
@@ -28,10 +28,10 @@
 
 <div class="grid grid-cols-4">
     @foreach ($category->products as $producto)
-        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-6">
+        <div class="max-w-sm rounded overflow-hidden mx-6 pt-12 pb-6">
             <a href="{{route('handicrafts', $producto->id)}}">
 
-        <img class="w-full" src="/img/instrumentos.jpeg" alt="">
+        <img class="w-full rounded-t-lg border-indigo-500" src="{{ asset("/img/$producto->id/$producto->id.1.jpeg") }}" alt="">
         <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">{{ $producto->name }} </div>
             <p class="text-gray-700 text-base">
@@ -44,7 +44,7 @@
 </div>
 
 <!--Productos final-->
-
+        <!--
         <div class="grid grid-cols-4 mx-4 mb-16 font-common text-2xl mt-6 h-fit">
             <template x-for="item in filteredProducts">
                 <a :href="`/handicrafts/{item.id}`" class=" ml-10 flex flex-col items-center bg-white  rounded-lg  md:flex-row md:max-w-xl  ">
@@ -55,6 +55,7 @@
                 </a>
             </template>
         </div>
+        -->
     </div>
 
     <script>
